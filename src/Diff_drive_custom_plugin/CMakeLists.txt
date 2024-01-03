@@ -43,7 +43,7 @@ install(DIRECTORY
   DESTINATION share/${PROJECT_NAME}/
 )
 install(DIRECTORY
-  # launch
+  # launchm
   DESTINATION share/${PROJECT_NAME}/
 )
 install(TARGETS Diff_drive_custom_plugin

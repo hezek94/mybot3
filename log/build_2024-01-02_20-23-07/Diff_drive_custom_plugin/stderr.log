@@ -1,0 +1,29 @@
+In file included from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:30[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/CommonTypes.hh:24[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:26[m[K,
+                 from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:2[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo_plugins::GazeboDiffDrive::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:106:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kmax_wheel_accelaration[m[K’; did you mean ‘[01m[Kmax_wheel_accelaration_[m[K’?
+  106 |         _driveImpl->[01;31m[Kmax_wheel_accelaration[m[K = _sdf->Get<double>("max_wheel_accelaration", 0.0).first;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                     [32m[Kmax_wheel_accelaration_[m[K
+[01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::onChildUpdate(const gazebo::common::UpdateInfo&)[m[K’:
+[01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:348:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_wheel_accel_[m[K’ was not declared in this scope
+  348 |             if ([01;31m[Kmax_wheel_accel_[m[K == 0 )
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Diff_drive_custom_plugin.dir/build.make:76: CMakeFiles/Diff_drive_custom_plugin.dir/src/Diff_drive_custom.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Diff_drive_custom_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

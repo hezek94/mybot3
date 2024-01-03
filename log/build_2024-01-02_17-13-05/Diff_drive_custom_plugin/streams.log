@@ -1,0 +1,10 @@
+[0.352s] Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+[0.756s] [ 50%] [32mBuilding CXX object CMakeFiles/Diff_drive_custom_plugin.dir/src/Diff_drive_custom.cpp.o[0m
+[18.992s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:11:9:[m[K [01;31m[Kfatal error: [m[Ksdf/sdf.h: No such file or directory
+[18.992s]    11 | #include[01;31m[K<sdf/sdf.h>[m[K
+[18.993s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.993s] compilation terminated.
+[19.063s] gmake[2]: *** [CMakeFiles/Diff_drive_custom_plugin.dir/build.make:76: CMakeFiles/Diff_drive_custom_plugin.dir/src/Diff_drive_custom.cpp.o] Error 1
+[19.069s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Diff_drive_custom_plugin.dir/all] Error 2
+[19.069s] gmake: *** [Makefile:146: all] Error 2
+[19.081s] Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6

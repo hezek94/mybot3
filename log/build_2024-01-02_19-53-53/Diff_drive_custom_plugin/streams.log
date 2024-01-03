@@ -1,0 +1,50 @@
+[0.301s] Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+[0.580s] [35m[1mConsolidate compiler generated dependencies of target Diff_drive_custom_plugin[0m
+[0.928s] [ 50%] [32mBuilding CXX object CMakeFiles/Diff_drive_custom_plugin.dir/src/Diff_drive_custom.cpp.o[0m
+[18.076s] In file included from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:30[m[K:
+[18.077s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[18.077s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[18.077s]       |  [01;35m[K^~~~~~~[m[K
+[33.404s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[33.404s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[33.405s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[33.405s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[33.406s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[33.406s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[33.406s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[33.407s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/CommonTypes.hh:24[m[K,
+[33.407s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:26[m[K,
+[33.408s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:2[m[K:
+[33.408s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[33.408s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[33.408s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[33.971s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo_plugins::GazeboDiffDrive::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[33.972s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:168:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[33.974s]   168 |         index[01;31m[K{[m[K};
+[33.974s]       |              [01;31m[K^[m[K
+[33.975s]       |              [32m[K;[m[K
+[33.975s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:168:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[33.975s]   168 |         [01;35m[Kindex[m[K{};
+[33.976s]       |         [01;35m[K^~~~~[m[K
+[33.976s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:182:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[33.977s]   182 |         index[01;31m[K{[m[K};
+[33.977s]       |              [01;31m[K^[m[K
+[33.977s]       |              [32m[K;[m[K
+[33.978s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:182:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[33.978s]   182 |         [01;35m[Kindex[m[K{};
+[33.978s]       |         [01;35m[K^~~~~[m[K
+[34.020s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:236:104:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[34.020s]   236 | ints_[2 * index + GazeboPrivateDiffDrive::RIGHT]->GetName().c_str());[01;31m[K)[m[K;
+[34.021s]       |                                                                      [01;31m[K^[m[K
+[34.021s] 
+[34.041s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::onChildUpdate(const gazebo::common::UpdateInfo&)[m[K’:
+[34.041s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:332:51:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[34.042s]   332 |                 [01;31m[Kjoints_[2 * i + LEFT]->SetVelocity(0,  wheel_speed[2 * i + LEFT] * wheel_diameter_[i] / 2.0)[m[K;
+[34.042s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[34.043s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:334:52:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[34.044s]   334 |                 [01;31m[Kjoints_[2 * i + RIGHT]->SetVelocity(0, wheel_speed[2 * i + RIGHT] * wheel_diameter_[i] / 2.0)[m[K;
+[34.045s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[43.399s] gmake[2]: *** [CMakeFiles/Diff_drive_custom_plugin.dir/build.make:76: CMakeFiles/Diff_drive_custom_plugin.dir/src/Diff_drive_custom.cpp.o] Error 1
+[43.402s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Diff_drive_custom_plugin.dir/all] Error 2
+[43.402s] gmake: *** [Makefile:146: all] Error 2
+[43.432s] Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6

@@ -1,0 +1,521 @@
+[0.000000] (-) TimerEvent: {}
+[0.000470] (Diff_drive_custom_plugin) JobQueued: {'identifier': 'Diff_drive_custom_plugin', 'dependencies': OrderedDict()}
+[0.000642] (Diff_drive_custom_plugin) JobStarted: {'identifier': 'Diff_drive_custom_plugin'}
+[0.095976] (-) TimerEvent: {}
+[0.197468] (-) TimerEvent: {}
+[0.298325] (Diff_drive_custom_plugin) JobProgress: {'identifier': 'Diff_drive_custom_plugin', 'progress': 'cmake'}
+[0.298580] (-) TimerEvent: {}
+[0.302940] (Diff_drive_custom_plugin) JobProgress: {'identifier': 'Diff_drive_custom_plugin', 'progress': 'build'}
+[0.304909] (Diff_drive_custom_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin', '--', '-j6', '-l6'], 'cwd': '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'femi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/femi'), ('OLDPWD', '/home/femi/Mybot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1800'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/femi/Mybot2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'femi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'femi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/femi-virtual-machine:@/tmp/.ICE-unix/1769,unix/femi-virtual-machine:/tmp/.ICE-unix/1769'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/217f4764_39cb_4938_8a68_5a64e96f159f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C54CG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin:/opt/ros/humble')]), 'shell': False}
+[0.399643] (-) TimerEvent: {}
+[0.501070] (-) TimerEvent: {}
+[0.598448] (Diff_drive_custom_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Diff_drive_custom_plugin\x1b[0m\n'}
+[0.601957] (-) TimerEvent: {}
+[0.704183] (-) TimerEvent: {}
+[0.805461] (-) TimerEvent: {}
+[0.908002] (-) TimerEvent: {}
+[0.915892] (Diff_drive_custom_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Diff_drive_custom_plugin.dir/src/Diff_drive_custom.cpp.o\x1b[0m\n'}
+[1.008511] (-) TimerEvent: {}
+[1.109830] (-) TimerEvent: {}
+[1.211021] (-) TimerEvent: {}
+[1.312308] (-) TimerEvent: {}
+[1.414056] (-) TimerEvent: {}
+[1.515800] (-) TimerEvent: {}
+[1.617140] (-) TimerEvent: {}
+[1.718307] (-) TimerEvent: {}
+[1.820099] (-) TimerEvent: {}
+[1.921196] (-) TimerEvent: {}
+[2.022131] (-) TimerEvent: {}
+[2.123204] (-) TimerEvent: {}
+[2.223979] (-) TimerEvent: {}
+[2.325106] (-) TimerEvent: {}
+[2.426165] (-) TimerEvent: {}
+[2.527516] (-) TimerEvent: {}
+[2.628899] (-) TimerEvent: {}
+[2.730220] (-) TimerEvent: {}
+[2.831914] (-) TimerEvent: {}
+[2.933230] (-) TimerEvent: {}
+[3.034476] (-) TimerEvent: {}
+[3.135931] (-) TimerEvent: {}
+[3.237026] (-) TimerEvent: {}
+[3.338093] (-) TimerEvent: {}
+[3.438794] (-) TimerEvent: {}
+[3.539913] (-) TimerEvent: {}
+[3.640805] (-) TimerEvent: {}
+[3.741882] (-) TimerEvent: {}
+[3.843730] (-) TimerEvent: {}
+[3.944878] (-) TimerEvent: {}
+[4.046142] (-) TimerEvent: {}
+[4.147537] (-) TimerEvent: {}
+[4.249068] (-) TimerEvent: {}
+[4.350079] (-) TimerEvent: {}
+[4.451138] (-) TimerEvent: {}
+[4.552331] (-) TimerEvent: {}
+[4.653525] (-) TimerEvent: {}
+[4.754893] (-) TimerEvent: {}
+[4.855931] (-) TimerEvent: {}
+[4.957289] (-) TimerEvent: {}
+[5.058220] (-) TimerEvent: {}
+[5.159448] (-) TimerEvent: {}
+[5.260953] (-) TimerEvent: {}
+[5.362209] (-) TimerEvent: {}
+[5.463576] (-) TimerEvent: {}
+[5.565396] (-) TimerEvent: {}
+[5.670934] (-) TimerEvent: {}
+[5.772732] (-) TimerEvent: {}
+[5.874069] (-) TimerEvent: {}
+[5.975324] (-) TimerEvent: {}
+[6.077350] (-) TimerEvent: {}
+[6.178971] (-) TimerEvent: {}
+[6.280721] (-) TimerEvent: {}
+[6.381656] (-) TimerEvent: {}
+[6.483725] (-) TimerEvent: {}
+[6.584854] (-) TimerEvent: {}
+[6.685966] (-) TimerEvent: {}
+[6.787039] (-) TimerEvent: {}
+[6.887788] (-) TimerEvent: {}
+[6.989254] (-) TimerEvent: {}
+[7.090471] (-) TimerEvent: {}
+[7.191650] (-) TimerEvent: {}
+[7.292590] (-) TimerEvent: {}
+[7.393754] (-) TimerEvent: {}
+[7.494735] (-) TimerEvent: {}
+[7.595620] (-) TimerEvent: {}
+[7.696566] (-) TimerEvent: {}
+[7.797659] (-) TimerEvent: {}
+[7.899028] (-) TimerEvent: {}
+[8.000138] (-) TimerEvent: {}
+[8.101755] (-) TimerEvent: {}
+[8.202773] (-) TimerEvent: {}
+[8.304071] (-) TimerEvent: {}
+[8.405382] (-) TimerEvent: {}
+[8.506130] (-) TimerEvent: {}
+[8.606944] (-) TimerEvent: {}
+[8.708554] (-) TimerEvent: {}
+[8.809711] (-) TimerEvent: {}
+[8.911481] (-) TimerEvent: {}
+[9.012669] (-) TimerEvent: {}
+[9.113971] (-) TimerEvent: {}
+[9.215865] (-) TimerEvent: {}
+[9.317312] (-) TimerEvent: {}
+[9.418344] (-) TimerEvent: {}
+[9.520051] (-) TimerEvent: {}
+[9.621329] (-) TimerEvent: {}
+[9.722849] (-) TimerEvent: {}
+[9.824707] (-) TimerEvent: {}
+[9.926138] (-) TimerEvent: {}
+[10.027380] (-) TimerEvent: {}
+[10.128962] (-) TimerEvent: {}
+[10.230161] (-) TimerEvent: {}
+[10.331556] (-) TimerEvent: {}
+[10.432866] (-) TimerEvent: {}
+[10.534384] (-) TimerEvent: {}
+[10.635804] (-) TimerEvent: {}
+[10.737464] (-) TimerEvent: {}
+[10.838636] (-) TimerEvent: {}
+[10.939983] (-) TimerEvent: {}
+[11.040856] (-) TimerEvent: {}
+[11.142207] (-) TimerEvent: {}
+[11.243260] (-) TimerEvent: {}
+[11.344568] (-) TimerEvent: {}
+[11.446000] (-) TimerEvent: {}
+[11.547306] (-) TimerEvent: {}
+[11.648277] (-) TimerEvent: {}
+[11.750050] (-) TimerEvent: {}
+[11.851176] (-) TimerEvent: {}
+[11.952375] (-) TimerEvent: {}
+[12.053559] (-) TimerEvent: {}
+[12.155362] (-) TimerEvent: {}
+[12.257451] (-) TimerEvent: {}
+[12.358626] (-) TimerEvent: {}
+[12.459752] (-) TimerEvent: {}
+[12.560799] (-) TimerEvent: {}
+[12.661798] (-) TimerEvent: {}
+[12.762873] (-) TimerEvent: {}
+[12.863971] (-) TimerEvent: {}
+[12.966131] (-) TimerEvent: {}
+[13.067679] (-) TimerEvent: {}
+[13.168589] (-) TimerEvent: {}
+[13.270502] (-) TimerEvent: {}
+[13.374770] (-) TimerEvent: {}
+[13.476427] (-) TimerEvent: {}
+[13.577616] (-) TimerEvent: {}
+[13.678459] (-) TimerEvent: {}
+[13.780069] (-) TimerEvent: {}
+[13.881140] (-) TimerEvent: {}
+[13.982689] (-) TimerEvent: {}
+[14.084965] (-) TimerEvent: {}
+[14.186936] (-) TimerEvent: {}
+[14.288341] (-) TimerEvent: {}
+[14.389117] (-) TimerEvent: {}
+[14.491177] (-) TimerEvent: {}
+[14.592939] (-) TimerEvent: {}
+[14.695396] (-) TimerEvent: {}
+[14.796122] (-) TimerEvent: {}
+[14.897085] (-) TimerEvent: {}
+[14.998440] (-) TimerEvent: {}
+[15.102226] (-) TimerEvent: {}
+[15.203894] (-) TimerEvent: {}
+[15.304955] (-) TimerEvent: {}
+[15.405967] (-) TimerEvent: {}
+[15.507083] (-) TimerEvent: {}
+[15.608836] (-) TimerEvent: {}
+[15.710174] (-) TimerEvent: {}
+[15.811072] (-) TimerEvent: {}
+[15.912528] (-) TimerEvent: {}
+[16.013893] (-) TimerEvent: {}
+[16.114759] (-) TimerEvent: {}
+[16.216083] (-) TimerEvent: {}
+[16.317445] (-) TimerEvent: {}
+[16.418463] (-) TimerEvent: {}
+[16.519825] (-) TimerEvent: {}
+[16.620837] (-) TimerEvent: {}
+[16.722478] (-) TimerEvent: {}
+[16.823649] (-) TimerEvent: {}
+[16.924597] (-) TimerEvent: {}
+[17.025668] (-) TimerEvent: {}
+[17.127256] (-) TimerEvent: {}
+[17.228654] (-) TimerEvent: {}
+[17.329877] (-) TimerEvent: {}
+[17.431873] (-) TimerEvent: {}
+[17.533585] (-) TimerEvent: {}
+[17.634838] (-) TimerEvent: {}
+[17.736028] (-) TimerEvent: {}
+[17.836951] (-) TimerEvent: {}
+[17.938121] (-) TimerEvent: {}
+[17.972874] (Diff_drive_custom_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:30\x1b[m\x1b[K:\n'}
+[17.973255] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.973479] (Diff_drive_custom_plugin) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[17.973710] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[18.039255] (-) TimerEvent: {}
+[18.141085] (-) TimerEvent: {}
+[18.242007] (-) TimerEvent: {}
+[18.343133] (-) TimerEvent: {}
+[18.444669] (-) TimerEvent: {}
+[18.546769] (-) TimerEvent: {}
+[18.648189] (-) TimerEvent: {}
+[18.749303] (-) TimerEvent: {}
+[18.850467] (-) TimerEvent: {}
+[18.951595] (-) TimerEvent: {}
+[19.052707] (-) TimerEvent: {}
+[19.153680] (-) TimerEvent: {}
+[19.254479] (-) TimerEvent: {}
+[19.355624] (-) TimerEvent: {}
+[19.456897] (-) TimerEvent: {}
+[19.558289] (-) TimerEvent: {}
+[19.660016] (-) TimerEvent: {}
+[19.761914] (-) TimerEvent: {}
+[19.863766] (-) TimerEvent: {}
+[19.965001] (-) TimerEvent: {}
+[20.066399] (-) TimerEvent: {}
+[20.168257] (-) TimerEvent: {}
+[20.269769] (-) TimerEvent: {}
+[20.370799] (-) TimerEvent: {}
+[20.472482] (-) TimerEvent: {}
+[20.573876] (-) TimerEvent: {}
+[20.675224] (-) TimerEvent: {}
+[20.776424] (-) TimerEvent: {}
+[20.877572] (-) TimerEvent: {}
+[20.978340] (-) TimerEvent: {}
+[21.079283] (-) TimerEvent: {}
+[21.180640] (-) TimerEvent: {}
+[21.282174] (-) TimerEvent: {}
+[21.383164] (-) TimerEvent: {}
+[21.484083] (-) TimerEvent: {}
+[21.585856] (-) TimerEvent: {}
+[21.687009] (-) TimerEvent: {}
+[21.787930] (-) TimerEvent: {}
+[21.889797] (-) TimerEvent: {}
+[21.990556] (-) TimerEvent: {}
+[22.091446] (-) TimerEvent: {}
+[22.192679] (-) TimerEvent: {}
+[22.293494] (-) TimerEvent: {}
+[22.394379] (-) TimerEvent: {}
+[22.495451] (-) TimerEvent: {}
+[22.596784] (-) TimerEvent: {}
+[22.698097] (-) TimerEvent: {}
+[22.798972] (-) TimerEvent: {}
+[22.899978] (-) TimerEvent: {}
+[23.000951] (-) TimerEvent: {}
+[23.102041] (-) TimerEvent: {}
+[23.202779] (-) TimerEvent: {}
+[23.304298] (-) TimerEvent: {}
+[23.405350] (-) TimerEvent: {}
+[23.506566] (-) TimerEvent: {}
+[23.607760] (-) TimerEvent: {}
+[23.708751] (-) TimerEvent: {}
+[23.809744] (-) TimerEvent: {}
+[23.910954] (-) TimerEvent: {}
+[24.012070] (-) TimerEvent: {}
+[24.112981] (-) TimerEvent: {}
+[24.214144] (-) TimerEvent: {}
+[24.315867] (-) TimerEvent: {}
+[24.416931] (-) TimerEvent: {}
+[24.518672] (-) TimerEvent: {}
+[24.619691] (-) TimerEvent: {}
+[24.720868] (-) TimerEvent: {}
+[24.822216] (-) TimerEvent: {}
+[24.923388] (-) TimerEvent: {}
+[25.024436] (-) TimerEvent: {}
+[25.125332] (-) TimerEvent: {}
+[25.226384] (-) TimerEvent: {}
+[25.327829] (-) TimerEvent: {}
+[25.429501] (-) TimerEvent: {}
+[25.531177] (-) TimerEvent: {}
+[25.631920] (-) TimerEvent: {}
+[25.733024] (-) TimerEvent: {}
+[25.834247] (-) TimerEvent: {}
+[25.935316] (-) TimerEvent: {}
+[26.036941] (-) TimerEvent: {}
+[26.137972] (-) TimerEvent: {}
+[26.239656] (-) TimerEvent: {}
+[26.340855] (-) TimerEvent: {}
+[26.441844] (-) TimerEvent: {}
+[26.543598] (-) TimerEvent: {}
+[26.644707] (-) TimerEvent: {}
+[26.746302] (-) TimerEvent: {}
+[26.847652] (-) TimerEvent: {}
+[26.948748] (-) TimerEvent: {}
+[27.049865] (-) TimerEvent: {}
+[27.150976] (-) TimerEvent: {}
+[27.252069] (-) TimerEvent: {}
+[27.353516] (-) TimerEvent: {}
+[27.454618] (-) TimerEvent: {}
+[27.555812] (-) TimerEvent: {}
+[27.657769] (-) TimerEvent: {}
+[27.758896] (-) TimerEvent: {}
+[27.859734] (-) TimerEvent: {}
+[27.960965] (-) TimerEvent: {}
+[28.062791] (-) TimerEvent: {}
+[28.164199] (-) TimerEvent: {}
+[28.265763] (-) TimerEvent: {}
+[28.367260] (-) TimerEvent: {}
+[28.468592] (-) TimerEvent: {}
+[28.569832] (-) TimerEvent: {}
+[28.670879] (-) TimerEvent: {}
+[28.771844] (-) TimerEvent: {}
+[28.872838] (-) TimerEvent: {}
+[28.973755] (-) TimerEvent: {}
+[29.075369] (-) TimerEvent: {}
+[29.177050] (-) TimerEvent: {}
+[29.278638] (-) TimerEvent: {}
+[29.379589] (-) TimerEvent: {}
+[29.480535] (-) TimerEvent: {}
+[29.581620] (-) TimerEvent: {}
+[29.683276] (-) TimerEvent: {}
+[29.784429] (-) TimerEvent: {}
+[29.885366] (-) TimerEvent: {}
+[29.986379] (-) TimerEvent: {}
+[30.088223] (-) TimerEvent: {}
+[30.189847] (-) TimerEvent: {}
+[30.291045] (-) TimerEvent: {}
+[30.391899] (-) TimerEvent: {}
+[30.493047] (-) TimerEvent: {}
+[30.594318] (-) TimerEvent: {}
+[30.695185] (-) TimerEvent: {}
+[30.796384] (-) TimerEvent: {}
+[30.898016] (-) TimerEvent: {}
+[30.999145] (-) TimerEvent: {}
+[31.100820] (-) TimerEvent: {}
+[31.202159] (-) TimerEvent: {}
+[31.303161] (-) TimerEvent: {}
+[31.404642] (-) TimerEvent: {}
+[31.505512] (-) TimerEvent: {}
+[31.606624] (-) TimerEvent: {}
+[31.708081] (-) TimerEvent: {}
+[31.808997] (-) TimerEvent: {}
+[31.909885] (-) TimerEvent: {}
+[32.010804] (-) TimerEvent: {}
+[32.112462] (-) TimerEvent: {}
+[32.214484] (-) TimerEvent: {}
+[32.315629] (-) TimerEvent: {}
+[32.416773] (-) TimerEvent: {}
+[32.517725] (-) TimerEvent: {}
+[32.618794] (-) TimerEvent: {}
+[32.720124] (-) TimerEvent: {}
+[32.821826] (-) TimerEvent: {}
+[32.923556] (-) TimerEvent: {}
+[33.024780] (-) TimerEvent: {}
+[33.126002] (-) TimerEvent: {}
+[33.226859] (-) TimerEvent: {}
+[33.327903] (-) TimerEvent: {}
+[33.429296] (-) TimerEvent: {}
+[33.530931] (-) TimerEvent: {}
+[33.632586] (-) TimerEvent: {}
+[33.733643] (-) TimerEvent: {}
+[33.834692] (-) TimerEvent: {}
+[33.936422] (-) TimerEvent: {}
+[34.037356] (-) TimerEvent: {}
+[34.056396] (Diff_drive_custom_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[34.056851] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[34.057120] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[34.057374] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[34.057624] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[34.057903] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[34.058152] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[34.058399] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/CommonTypes.hh:24\x1b[m\x1b[K,\n'}
+[34.058660] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Time.hh:26\x1b[m\x1b[K,\n'}
+[34.058913] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:2\x1b[m\x1b[K:\n'}
+[34.059183] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.059514] (Diff_drive_custom_plugin) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[34.059772] (Diff_drive_custom_plugin) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.137740] (-) TimerEvent: {}
+[34.239014] (-) TimerEvent: {}
+[34.340271] (-) TimerEvent: {}
+[34.441475] (-) TimerEvent: {}
+[34.543260] (-) TimerEvent: {}
+[34.613342] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo_plugins::GazeboDiffDrive::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.613750] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:102:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo_plugins::GazeboPrivateDiffDrive\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Krosnode\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krosnode_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[34.614008] (Diff_drive_custom_plugin) StderrLine: {'line': b'  102 |         const gazebo_ros::QoS &qos = _driveImpl->\x1b[01;31m\x1b[Krosnode\x1b[m\x1b[K->get_qos();//Quality of Service profile setup\n'}
+[34.614238] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.614461] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[Krosnode_\x1b[m\x1b[K\n'}
+[34.622066] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:123:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class gazebo_ros::Node\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass gazebo_ros::Node\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kreset\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.622478] (Diff_drive_custom_plugin) StderrLine: {'line': b'  123 |                 _driveImpl->rosnode_->\x1b[01;31m\x1b[Kreset\x1b[m\x1b[K();\n'}
+[34.622728] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[34.623585] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:139:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class gazebo_ros::Node\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass gazebo_ros::Node\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kreset\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.623925] (Diff_drive_custom_plugin) StderrLine: {'line': b'  139 |                 _driveImpl->rosnode_->\x1b[01;31m\x1b[Kreset\x1b[m\x1b[K();\n'}
+[34.624714] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[34.625078] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:168:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[34.625636] (Diff_drive_custom_plugin) StderrLine: {'line': b'  168 |         index\x1b[01;31m\x1b[K{\x1b[m\x1b[K};\n'}
+[34.625958] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[34.626265] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[34.626580] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:168:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[34.626900] (Diff_drive_custom_plugin) StderrLine: {'line': b'  168 |         \x1b[01;35m\x1b[Kindex\x1b[m\x1b[K{};\n'}
+[34.627341] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[34.628065] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:182:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[34.628374] (Diff_drive_custom_plugin) StderrLine: {'line': b'  182 |         index\x1b[01;31m\x1b[K{\x1b[m\x1b[K};\n'}
+[34.628689] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[34.628978] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[34.629284] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:182:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[34.629604] (Diff_drive_custom_plugin) StderrLine: {'line': b'  182 |         \x1b[01;35m\x1b[Kindex\x1b[m\x1b[K{};\n'}
+[34.629902] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[34.643747] (-) TimerEvent: {}
+[34.655050] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:205:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_impl\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[34.655470] (Diff_drive_custom_plugin) StderrLine: {'line': b'  205 |         \x1b[01;31m\x1b[K_impl\x1b[m\x1b[K->publish_odom_ = _sdf->Get<bool>("publish_odom", true).first;\n'}
+[34.656058] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[34.661258] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:216:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KOdom_Source\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass gazebo_plugins::GazeboPrivateDiffDrive\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[34.661711] (Diff_drive_custom_plugin) StderrLine: {'line': b'  216 | iveImpl->odom_source_ = static_cast<GazeboPrivateDiffDrive::\x1b[01;31m\x1b[KOdom_Source\x1b[m\x1b[K>(_sdf->Get<int>("odometry_source", 1).first);\n'}
+[34.662045] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.662356] (Diff_drive_custom_plugin) StderrLine: {'line': b'\n'}
+[34.663884] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:236:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[34.664206] (Diff_drive_custom_plugin) StderrLine: {'line': b'  236 | ints_[2 * index + GazeboPrivateDiffDrive::RIGHT]->GetName().c_str());\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[34.664427] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[34.664673] (Diff_drive_custom_plugin) StderrLine: {'line': b'\n'}
+[34.675574] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::onChildUpdate(const gazebo::common::UpdateInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.677484] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:332:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvoid value not ignored as it ought to be\n'}
+[34.677915] (Diff_drive_custom_plugin) StderrLine: {'line': b'  332 |                 \x1b[01;31m\x1b[Kjoints_[2 * i + LEFT]->SetVelocity(0,  wheel_speed[2 * i + LEFT] * wheel_diameter_[i] / 2.0)\x1b[m\x1b[K;\n'}
+[34.678301] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.678641] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:334:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvoid value not ignored as it ought to be\n'}
+[34.679071] (Diff_drive_custom_plugin) StderrLine: {'line': b'  334 |                 \x1b[01;31m\x1b[Kjoints_[2 * i + RIGHT]->SetVelocity(0, wheel_speed[2 * i + RIGHT] * wheel_diameter_[i] / 2.0)\x1b[m\x1b[K;\n'}
+[34.679686] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.744087] (-) TimerEvent: {}
+[34.845722] (-) TimerEvent: {}
+[34.946919] (-) TimerEvent: {}
+[35.047894] (-) TimerEvent: {}
+[35.148836] (-) TimerEvent: {}
+[35.250209] (-) TimerEvent: {}
+[35.351252] (-) TimerEvent: {}
+[35.452056] (-) TimerEvent: {}
+[35.553159] (-) TimerEvent: {}
+[35.654178] (-) TimerEvent: {}
+[35.755004] (-) TimerEvent: {}
+[35.856076] (-) TimerEvent: {}
+[35.956997] (-) TimerEvent: {}
+[36.058654] (-) TimerEvent: {}
+[36.159806] (-) TimerEvent: {}
+[36.260611] (-) TimerEvent: {}
+[36.361796] (-) TimerEvent: {}
+[36.462752] (-) TimerEvent: {}
+[36.563703] (-) TimerEvent: {}
+[36.665173] (-) TimerEvent: {}
+[36.766396] (-) TimerEvent: {}
+[36.867524] (-) TimerEvent: {}
+[36.968429] (-) TimerEvent: {}
+[37.069635] (-) TimerEvent: {}
+[37.170643] (-) TimerEvent: {}
+[37.271407] (-) TimerEvent: {}
+[37.372462] (-) TimerEvent: {}
+[37.473548] (-) TimerEvent: {}
+[37.574786] (-) TimerEvent: {}
+[37.676059] (-) TimerEvent: {}
+[37.777340] (-) TimerEvent: {}
+[37.878177] (-) TimerEvent: {}
+[37.979167] (-) TimerEvent: {}
+[38.080419] (-) TimerEvent: {}
+[38.181721] (-) TimerEvent: {}
+[38.283378] (-) TimerEvent: {}
+[38.385056] (-) TimerEvent: {}
+[38.486334] (-) TimerEvent: {}
+[38.587990] (-) TimerEvent: {}
+[38.696424] (-) TimerEvent: {}
+[38.798031] (-) TimerEvent: {}
+[38.899201] (-) TimerEvent: {}
+[39.000206] (-) TimerEvent: {}
+[39.101218] (-) TimerEvent: {}
+[39.202083] (-) TimerEvent: {}
+[39.303281] (-) TimerEvent: {}
+[39.404449] (-) TimerEvent: {}
+[39.505800] (-) TimerEvent: {}
+[39.607305] (-) TimerEvent: {}
+[39.709095] (-) TimerEvent: {}
+[39.810413] (-) TimerEvent: {}
+[39.912180] (-) TimerEvent: {}
+[40.013817] (-) TimerEvent: {}
+[40.114869] (-) TimerEvent: {}
+[40.216134] (-) TimerEvent: {}
+[40.316960] (-) TimerEvent: {}
+[40.418385] (-) TimerEvent: {}
+[40.520199] (-) TimerEvent: {}
+[40.621784] (-) TimerEvent: {}
+[40.722976] (-) TimerEvent: {}
+[40.823790] (-) TimerEvent: {}
+[40.925007] (-) TimerEvent: {}
+[41.025933] (-) TimerEvent: {}
+[41.127008] (-) TimerEvent: {}
+[41.228114] (-) TimerEvent: {}
+[41.329655] (-) TimerEvent: {}
+[41.430901] (-) TimerEvent: {}
+[41.531873] (-) TimerEvent: {}
+[41.633168] (-) TimerEvent: {}
+[41.734131] (-) TimerEvent: {}
+[41.843852] (-) TimerEvent: {}
+[41.945096] (-) TimerEvent: {}
+[42.046632] (-) TimerEvent: {}
+[42.148092] (-) TimerEvent: {}
+[42.249039] (-) TimerEvent: {}
+[42.350558] (-) TimerEvent: {}
+[42.451291] (-) TimerEvent: {}
+[42.552425] (-) TimerEvent: {}
+[42.654449] (-) TimerEvent: {}
+[42.756502] (-) TimerEvent: {}
+[42.859860] (-) TimerEvent: {}
+[42.961104] (-) TimerEvent: {}
+[43.062379] (-) TimerEvent: {}
+[43.163618] (-) TimerEvent: {}
+[43.265214] (-) TimerEvent: {}
+[43.366768] (-) TimerEvent: {}
+[43.467918] (-) TimerEvent: {}
+[43.569314] (-) TimerEvent: {}
+[43.670999] (-) TimerEvent: {}
+[43.772278] (-) TimerEvent: {}
+[43.873596] (-) TimerEvent: {}
+[43.975753] (-) TimerEvent: {}
+[44.077018] (-) TimerEvent: {}
+[44.178976] (-) TimerEvent: {}
+[44.280410] (-) TimerEvent: {}
+[44.381597] (-) TimerEvent: {}
+[44.465632] (Diff_drive_custom_plugin) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Diff_drive_custom_plugin.dir/build.make:76: CMakeFiles/Diff_drive_custom_plugin.dir/src/Diff_drive_custom.cpp.o] Error 1\n'}
+[44.469145] (Diff_drive_custom_plugin) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Diff_drive_custom_plugin.dir/all] Error 2\n'}
+[44.469465] (Diff_drive_custom_plugin) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[44.478642] (Diff_drive_custom_plugin) CommandEnded: {'returncode': 2}
+[44.487644] (-) TimerEvent: {}
+[44.589712] (-) TimerEvent: {}
+[44.691703] (-) TimerEvent: {}
+[44.793681] (-) TimerEvent: {}
+[44.901463] (-) TimerEvent: {}
+[45.004141] (-) TimerEvent: {}
+[45.106008] (-) TimerEvent: {}
+[45.209208] (-) TimerEvent: {}
+[45.312355] (-) TimerEvent: {}
+[45.316485] (Diff_drive_custom_plugin) JobEnded: {'identifier': 'Diff_drive_custom_plugin', 'rc': 2}
+[45.330519] (-) EventReactorShutdown: {}

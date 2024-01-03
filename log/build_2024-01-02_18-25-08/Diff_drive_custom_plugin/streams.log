@@ -1,0 +1,388 @@
+[0.335s] Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+[0.611s] [35m[1mConsolidate compiler generated dependencies of target Diff_drive_custom_plugin[0m
+[0.934s] [ 50%] [32mBuilding CXX object CMakeFiles/Diff_drive_custom_plugin.dir/src/Diff_drive_custom.cpp.o[0m
+[19.176s] In file included from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:30[m[K:
+[19.176s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[19.177s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[19.177s]       |  [01;35m[K^~~~~~~[m[K
+[19.802s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:408:1:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+[19.802s]   408 | [01;31m[K`[m[K
+[19.802s]       | [01;31m[K^[m[K
+[35.779s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[35.779s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[35.780s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[35.780s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[35.780s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[35.780s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[35.781s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[35.781s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/CommonTypes.hh:24[m[K,
+[35.781s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:26[m[K,
+[35.781s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:2[m[K:
+[35.782s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[35.782s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[35.782s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[36.281s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:37:5:[m[K [01;31m[Kerror: [m[Knew types may not be defined in a return type
+[36.281s]    37 |     [01;31m[Kclass[m[K GazeboPrivateDiffDrive{
+[36.281s]       |     [01;31m[K^~~~~[m[K
+[36.281s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:37:5:[m[K [01;36m[Knote: [m[K(perhaps a semicolon is missing after the definition of ‘[01m[Kgazebo_plugins::GazeboPrivateDiffDrive[m[K’)
+[36.282s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:37:5:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+[36.288s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo_plugins::GazeboDiffDrive::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[36.288s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:102:27:[m[K [01;31m[Kerror: [m[K‘[01m[KQos[m[K’ in namespace ‘[01m[Kgazebo_ros[m[K’ does not name a type; did you mean ‘[01m[KQoS[m[K’?
+[36.288s]   102 |         const gazebo_ros::[01;31m[KQos[m[K &qos = _driveImpl->rosnode->get_qos();//Quality of Service profile setup
+[36.289s]       |                           [01;31m[K^~~[m[K
+[36.289s]       |                           [32m[KQoS[m[K
+[36.318s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:119:34:[m[K [01;31m[Kerror: [m[K‘[01m[KGetJoint[m[K’ was not declared in this scope
+[36.318s]   119 |             auto joint = _parent-[01;31m[KGetJoint[m[K(joint_name);
+[36.318s]       |                                  [01;31m[K^~~~~~~~[m[K
+[36.319s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:123:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.319s]   123 |                 _driveImpl->[01;31m[Krosnode[m[K->reset();
+[36.320s]       |                             [01;31m[K^~~~~~~[m[K
+[36.320s]       |                             [32m[Krosnode_[m[K
+[36.320s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:129:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[36.320s]   129 |             left_jointElemPtr = _sdf->GetNextElement("left_joint")
+[36.320s]       |                                                                   [01;31m[K^[m[K
+[36.321s]       |                                                                   [32m[K;[m[K
+[36.321s]   130 |         [32m[K}[m[K
+[36.321s]       |         [32m[K~[m[K                                                          
+[36.333s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:135:34:[m[K [01;31m[Kerror: [m[K‘[01m[KGetJoint[m[K’ was not declared in this scope
+[36.333s]   135 |             auto joint = _parent-[01;31m[KGetJoint[m[K(joint_name);
+[36.333s]       |                                  [01;31m[K^~~~~~~~[m[K
+[36.334s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:139:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.334s]   139 |                 _driveImpl->[01;31m[Krosnode[m[K->reset();
+[36.334s]       |                             [01;31m[K^~~~~~~[m[K
+[36.335s]       |                             [32m[Krosnode_[m[K
+[36.369s] In file included from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/generic.hpp:25[m[K,
+[36.370s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/builtin_interfaces.hpp:23[m[K,
+[36.371s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:7[m[K:
+[36.373s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:151:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.374s]   151 |             RCLCPP_ERROR(_driveImpl->[01;31m[Krosnode[m[K->get_logger(), "inconsistency in the number of joint", _driveImpl->rosnode.reset());
+[36.374s]       |                                      [01;31m[K^~~~~~~[m[K
+[36.374s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:151:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.374s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:151:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.375s]   151 |             [01;31m[KRCLCPP_ERROR[m[K(_driveImpl->rosnode->get_logger(), "inconsistency in the number of joint", _driveImpl->rosnode.reset());
+[36.375s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[36.375s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:151:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[36.375s]   151 |             [01;31m[KRCLCPP_ERROR[m[K(_driveImpl->rosnode->get_logger(), "inconsistency in the number of joint", _driveImpl->rosnode.reset());
+[36.376s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[36.376s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:151:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.376s]   151 |             [01;31m[KRCLCPP_ERROR[m[K(_driveImpl->rosnode->get_logger(), "inconsistency in the number of joint", _driveImpl->rosnode.reset());
+[36.376s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[36.377s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:151:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[36.377s]   151 |             [01;31m[KRCLCPP_ERROR[m[K(_driveImpl->rosnode->get_logger(), "inconsistency in the number of joint", _driveImpl->rosnode.reset());
+[36.377s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[36.377s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:151:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.378s]   151 |             [01;31m[KRCLCPP_ERROR[m[K(_driveImpl->rosnode->get_logger(), "inconsistency in the number of joint", _driveImpl->rosnode.reset());
+[36.378s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[36.378s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[36.378s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/generic.hpp:25[m[K,
+[36.379s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/builtin_interfaces.hpp:23[m[K,
+[36.379s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:7[m[K:
+[36.380s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:151:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.380s]   151 |             RCLCPP_ERROR(_driveImpl->[01;31m[Krosnode[m[K->get_logger(), "inconsistency in the number of joint", _driveImpl->rosnode.reset());
+[36.380s]       |                                      [01;31m[K^~~~~~~[m[K
+[36.380s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:151:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.381s]   151 |             RCLCPP_ERROR(_driveImpl->[01;31m[Krosnode[m[K->get_logger(), "inconsistency in the number of joint", _driveImpl->rosnode.reset());
+[36.381s]       |                                      [01;31m[K^~~~~~~[m[K
+[36.381s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:151:113:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.381s]   151 | gger(), "inconsistency in the number of joint", _driveImpl->[01;31m[Krosnode[m[K.reset());
+[36.382s]       |                                                             [01;31m[K^~~~~~~[m[K
+[36.382s] 
+[36.383s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:167:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[36.383s]   167 |         index[01;31m[K{[m[K};
+[36.383s]       |              [01;31m[K^[m[K
+[36.383s]       |              [32m[K;[m[K
+[36.384s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:167:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[36.384s]   167 |         [01;35m[Kindex[m[K{};
+[36.384s]       |         [01;35m[K^~~~~[m[K
+[36.385s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:181:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[36.385s]   181 |         index[01;31m[K{[m[K};
+[36.385s]       |              [01;31m[K^[m[K
+[36.386s]       |              [32m[K;[m[K
+[36.386s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:181:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[36.387s]   181 |         [01;35m[Kindex[m[K{};
+[36.387s]       |         [01;35m[K^~~~~[m[K
+[36.395s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:196:41:[m[K [01;31m[Kerror: [m[K‘[01m[K_model[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodfl[m[K’?
+[36.395s]   196 |         _driveImpl->last_update_time_ = [01;31m[K_model[m[K->GetWorld()->SimTime();
+[36.395s]       |                                         [01;31m[K^~~~~~[m[K
+[36.395s]       |                                         [32m[Kmodfl[m[K
+[36.396s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:198:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.396s]   198 |         _driveImpl->cmd_vel_sub_ = _driveImpl->[01;31m[Krosnode[m[K->create_subscription<geometry_msgs::msg::Twist>(
+[36.396s]       |                                                [01;31m[K^~~~~~~[m[K
+[36.397s]       |                                                [32m[Krosnode_[m[K
+[36.397s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:198:102:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[36.397s]   198 |  = _driveImpl->rosnode->create_subscription<geometry_msgs::msg::Twist[01;31m[K>[m[K(
+[36.398s]       |                                                                      [01;31m[K^[m[K
+[36.398s] 
+[36.408s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:199:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kqos[m[K’ was not declared in this scope; did you mean ‘[01m[Kcos[m[K’?
+[36.408s]   199 |             "cmd_vel", [01;31m[Kqos[m[K.get_subscription_qos("cmd_vel", rclcpp::QoS(1)),
+[36.409s]       |                        [01;31m[K^~~[m[K
+[36.409s]       |                        [32m[Kcos[m[K
+[36.409s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:200:48:[m[K [01;31m[Kerror: [m[K‘[01m[KvelCmdCallback[m[K’ is not a member of ‘[01m[Kgazebo_plugins::GazeboPrivateDiffDrive[m[K’
+[36.410s]   200 |             std::bind(&GazeboPrivateDiffDrive::[01;31m[KvelCmdCallback[m[K, _driveImpl.get(), std::placeholders _1));
+[36.410s]       |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[36.411s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:200:100:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K_1[m[K’
+[36.411s]   200 | ateDiffDrive::velCmdCallback, _driveImpl.get(), std::placeholders [01;31m[K_1[m[K));
+[36.411s]       |                                                                   [01;31m[K^~[m[K
+[36.412s] 
+[36.412s] In file included from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/generic.hpp:25[m[K,
+[36.412s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/builtin_interfaces.hpp:23[m[K,
+[36.412s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:7[m[K:
+[36.413s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:202:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.413s]   202 |         RCLCPP_INFO(_driveImpl->[01;31m[Krosnode[m[K->get_logger(), "Subscribed to [%s]", _driveImpl->cmd_vel_sub_->get_topic_name());
+[36.413s]       |                                 [01;31m[K^~~~~~~[m[K
+[36.414s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:202:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.414s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:202:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.414s]   202 |         [01;31m[KRCLCPP_INFO[m[K(_driveImpl->rosnode->get_logger(), "Subscribed to [%s]", _driveImpl->cmd_vel_sub_->get_topic_name());
+[36.415s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[36.415s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:202:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[36.415s]   202 |         [01;31m[KRCLCPP_INFO[m[K(_driveImpl->rosnode->get_logger(), "Subscribed to [%s]", _driveImpl->cmd_vel_sub_->get_topic_name());
+[36.416s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[36.416s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:202:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.417s]   202 |         [01;31m[KRCLCPP_INFO[m[K(_driveImpl->rosnode->get_logger(), "Subscribed to [%s]", _driveImpl->cmd_vel_sub_->get_topic_name());
+[36.417s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[36.417s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:202:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[36.418s]   202 |         [01;31m[KRCLCPP_INFO[m[K(_driveImpl->rosnode->get_logger(), "Subscribed to [%s]", _driveImpl->cmd_vel_sub_->get_topic_name());
+[36.418s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[36.419s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:202:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.419s]   202 |         [01;31m[KRCLCPP_INFO[m[K(_driveImpl->rosnode->get_logger(), "Subscribed to [%s]", _driveImpl->cmd_vel_sub_->get_topic_name());
+[36.419s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[36.420s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[36.420s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/generic.hpp:25[m[K,
+[36.421s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/builtin_interfaces.hpp:23[m[K,
+[36.421s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:7[m[K:
+[36.421s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:202:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.422s]   202 |         RCLCPP_INFO(_driveImpl->[01;31m[Krosnode[m[K->get_logger(), "Subscribed to [%s]", _driveImpl->cmd_vel_sub_->get_topic_name());
+[36.422s]       |                                 [01;31m[K^~~~~~~[m[K
+[36.423s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:202:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Krosnode[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.423s]   202 |         RCLCPP_INFO(_driveImpl->[01;31m[Krosnode[m[K->get_logger(), "Subscribed to [%s]", _driveImpl->cmd_vel_sub_->get_topic_name());
+[36.424s]       |                                 [01;31m[K^~~~~~~[m[K
+[36.425s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:204:9:[m[K [01;31m[Kerror: [m[K‘[01m[K_impl[m[K’ was not declared in this scope
+[36.425s]   204 |         [01;31m[K_impl[m[K->publish_odom_ = _sdf->Get<bool>("publish_odom", true).first;
+[36.425s]       |         [01;31m[K^~~~~[m[K
+[36.428s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:206:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[36.428s]   206 |             _driveImpl->odom_pub_ = [01;31m[K=[m[K _driveImpl->ros_node_->create_publisher<nav_msgs::msg::Odometry>("odom", qos.get_publisher_qos("odom", rclcpp::QoS(1)));
+[36.429s]       |                                     [01;31m[K^[m[K
+[36.430s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:206:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.430s]   206 |             _driveImpl->odom_pub_ = = _driveImpl->[01;31m[Kros_node_[m[K->create_publisher<nav_msgs::msg::Odometry>("odom", qos.get_publisher_qos("odom", rclcpp::QoS(1)));
+[36.430s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[36.431s]       |                                                   [32m[Krosnode_[m[K
+[36.431s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:206:102:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[36.431s]   206 | iveImpl->ros_node_->create_publisher<nav_msgs::msg::Odometry[01;31m[K>[m[K("odom", qos.get_publisher_qos("odom", rclcpp::QoS(1)));
+[36.432s]       |                                                             [01;31m[K^[m[K
+[36.433s] 
+[36.433s] In file included from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/generic.hpp:25[m[K,
+[36.434s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/builtin_interfaces.hpp:23[m[K,
+[36.435s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:7[m[K:
+[36.435s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:207:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.436s]   207 |             RCLCPP_INFO(_driveImpl->[01;31m[Kros_node_[m[K->get_logger(), "Advertise odometry on [%s]",
+[36.437s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[36.437s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:207:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.438s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:207:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.438s]   207 |             [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(), "Advertise odometry on [%s]",
+[36.438s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[36.438s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:207:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[36.439s]   207 |             [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(), "Advertise odometry on [%s]",
+[36.439s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[36.440s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:207:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.440s]   207 |             [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(), "Advertise odometry on [%s]",
+[36.440s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[36.440s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:207:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[36.441s]   207 |             [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(), "Advertise odometry on [%s]",
+[36.441s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[36.441s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:207:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.442s]   207 |             [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(), "Advertise odometry on [%s]",
+[36.442s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[36.442s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[36.443s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/generic.hpp:25[m[K,
+[36.443s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/builtin_interfaces.hpp:23[m[K,
+[36.443s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:7[m[K:
+[36.444s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:207:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.444s]   207 |             RCLCPP_INFO(_driveImpl->[01;31m[Kros_node_[m[K->get_logger(), "Advertise odometry on [%s]",
+[36.445s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[36.445s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:207:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.445s]   207 |             RCLCPP_INFO(_driveImpl->[01;31m[Kros_node_[m[K->get_logger(), "Advertise odometry on [%s]",
+[36.446s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[36.447s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:213:107:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K_driveImpl[m[K’
+[36.448s]   213 |         _driveImpl->robot_base_frame_ = _sdf->Get<std::string>("robot_base_frame", "base_footprint").first
+[36.448s]       |                                                                                                           [01;31m[K^[m[K
+[36.449s]       |                                                                                                           [32m[K;[m[K
+[36.450s]   214 | 
+[36.450s]   215 |         [32m[K_driveImpl[m[K->odom_source_ = static_cast<GazeboPrivateDiffDrive::Odom_Source>(_sdf->Get<int>("odometry_source", 1).first);
+[36.450s]       |         [32m[K~~~~~~~~~~[m[K                                                                                         
+[36.451s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:222:91:[m[K [01;31m[Kerror: [m[K‘[01m[Kimpl_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmpl_[m[K’?
+[36.451s]   222 | adcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>([01;31m[Kimpl_[m[K->ros_node_);
+[36.452s]       |                                                             [01;31m[K^~~~~[m[K
+[36.453s]       |                                                             [32m[Kmpl_[m[K
+[36.454s] In file included from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/generic.hpp:25[m[K,
+[36.455s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/builtin_interfaces.hpp:23[m[K,
+[36.455s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:7[m[K:
+[36.455s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:224:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.456s]   224 |                 RCLCPP_INFO(_driveImpl->[01;31m[Kros_node_[m[K->get_logger(),
+[36.456s]       |                                         [01;31m[K^~~~~~~~~[m[K
+[36.456s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:224:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.457s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:224:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.457s]   224 |                 [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(),
+[36.457s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[36.458s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:224:17:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[36.460s]   224 |                 [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(),
+[36.460s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[36.461s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:224:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.461s]   224 |                 [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(),
+[36.462s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[36.462s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:224:17:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[36.463s]   224 |                 [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(),
+[36.464s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[36.464s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:224:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.465s]   224 |                 [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(),
+[36.465s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[36.465s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[36.466s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/generic.hpp:25[m[K,
+[36.466s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/builtin_interfaces.hpp:23[m[K,
+[36.467s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:7[m[K:
+[36.467s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:224:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.468s]   224 |                 RCLCPP_INFO(_driveImpl->[01;31m[Kros_node_[m[K->get_logger(),
+[36.468s]       |                                         [01;31m[K^~~~~~~~~[m[K
+[36.468s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:224:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.469s]   224 |                 RCLCPP_INFO(_driveImpl->[01;31m[Kros_node_[m[K->get_logger(),
+[36.469s]       |                                         [01;31m[K^~~~~~~~~[m[K
+[36.470s] In file included from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/generic.hpp:25[m[K,
+[36.470s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/builtin_interfaces.hpp:23[m[K,
+[36.471s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:7[m[K:
+[36.471s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:232:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.472s]   232 |                     RCLCPP_INFO(_driveImpl->[01;31m[Kros_node_[m[K->get_logger(), "Publishing wheel transforms between [%s], [%s] and [%s]",
+[36.472s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[36.472s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:232:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.473s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:232:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.473s]   232 |                     [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(), "Publishing wheel transforms between [%s], [%s] and [%s]",
+[36.473s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[36.474s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:232:21:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[36.474s]   232 |                     [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(), "Publishing wheel transforms between [%s], [%s] and [%s]",
+[36.475s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[36.475s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:232:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.476s]   232 |                     [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(), "Publishing wheel transforms between [%s], [%s] and [%s]",
+[36.476s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[36.477s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:232:21:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[36.478s]   232 |                     [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(), "Publishing wheel transforms between [%s], [%s] and [%s]",
+[36.478s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[36.480s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:232:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.480s]   232 |                     [01;31m[KRCLCPP_INFO[m[K(_driveImpl->ros_node_->get_logger(), "Publishing wheel transforms between [%s], [%s] and [%s]",
+[36.480s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[36.481s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[36.481s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/generic.hpp:25[m[K,
+[36.481s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/conversions/builtin_interfaces.hpp:23[m[K,
+[36.481s]                  from [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:7[m[K:
+[36.482s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:232:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.482s]   232 |                     RCLCPP_INFO(_driveImpl->[01;31m[Kros_node_[m[K->get_logger(), "Publishing wheel transforms between [%s], [%s] and [%s]",
+[36.482s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[36.483s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:232:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kros_node_[m[K’; did you mean ‘[01m[Krosnode_[m[K’?
+[36.483s]   232 |                     RCLCPP_INFO(_driveImpl->[01;31m[Kros_node_[m[K->get_logger(), "Publishing wheel transforms between [%s], [%s] and [%s]",
+[36.483s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[36.483s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:235:104:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[36.484s]   235 | ints_[2 * index + GazeboPrivateDiffDrive::RIGHT]->GetName().c_str());[01;31m[K)[m[K;
+[36.484s]       |                                                                      [01;31m[K^[m[K
+[36.484s] 
+[36.485s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo_plugins::GazeboDiffDrive::Reset()[m[K’:
+[36.485s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:249:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Knum_wheel_pairs_[m[K’
+[36.485s]   249 |         for (unsigned int i = 0; i < _driveImpl->[01;31m[Knum_wheel_pairs_[m[K; ++i) {
+[36.485s]       |                                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[36.486s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:254:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kmax_wheel_torque_[m[K’; did you mean ‘[01m[Kmax_wheel_torque[m[K’?
+[36.486s]   254 |                 "fmax", 0, _driveImpl->[01;31m[Kmax_wheel_torque_[m[K);
+[36.486s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[36.486s]       |                                        [32m[Kmax_wheel_torque[m[K
+[36.487s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:256:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kmax_wheel_torque_[m[K’; did you mean ‘[01m[Kmax_wheel_torque[m[K’?
+[36.487s]   256 |                 "fmax", 0, _driveImpl->[01;31m[Kmax_wheel_torque_[m[K);
+[36.488s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[36.488s]       |                                        [32m[Kmax_wheel_torque[m[K
+[36.488s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:260:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kpose_encoder_[m[K’; did you mean ‘[01m[Kpose_ed_[m[K’?
+[36.488s]   260 |             _driveImpl->[01;31m[Kpose_encoder_[m[K.x = 0;
+[36.489s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[36.489s]       |                         [32m[Kpose_ed_[m[K
+[36.489s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:261:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kpose_encoder_[m[K’; did you mean ‘[01m[Kpose_ed_[m[K’?
+[36.490s]   261 |             _driveImpl->[01;31m[Kpose_encoder_[m[K.y = 0;
+[36.490s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[36.490s]       |                         [32m[Kpose_ed_[m[K
+[36.491s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:262:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_plugins::GazeboPrivateDiffDrive[m[K’ has no member named ‘[01m[Kpose_encoder_[m[K’; did you mean ‘[01m[Kpose_ed_[m[K’?
+[36.491s]   262 |             _driveImpl->[01;31m[Kpose_encoder_[m[K.theta = 0;
+[36.491s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[36.492s]       |                         [32m[Kpose_ed_[m[K
+[36.516s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::onChildUpdate(const gazebo::common::UpdateInfo&)[m[K’:
+[36.517s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:283:61:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_actuator_update_[m[K’ was not declared in this scope; did you mean ‘[01m[Klast_encoder_update_[m[K’?
+[36.517s]   283 |         double seconds_since_last_update = ( current_time - [01;31m[Klast_actuator_update_[m[K ).Double();
+[36.517s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[36.518s]       |                                                             [32m[Klast_encoder_update_[m[K
+[36.518s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:331:51:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[36.518s]   331 |                 [01;31m[Kjoints_[2 * i + LEFT]->SetVelocity(0,  wheel_speed[2 * i + LEFT] * wheel_diameter_[i] / 2.0)[m[K;
+[36.519s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[36.519s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:333:52:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[36.519s]   333 |                 [01;31m[Kjoints_[2 * i + RIGHT]->SetVelocity(0, wheel_speed[2 * i + RIGHT] * wheel_diameter_[i] / 2.0)[m[K;
+[36.520s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[36.520s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::PublishOdometry(const gazebo::common::Time&)[m[K’:
+[36.521s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:349:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmemcpy[m[K’
+[36.521s]   349 |                 }
+[36.522s]       |                  [01;31m[K^[m[K
+[36.522s]       |                  [32m[K;[m[K
+[36.522s]   350 |             // Copy values from cov to odom_.pose.covariance
+[36.523s]   351 |         [32m[Kmemcpy[m[K(&odom_.pose.covariance[0], cov.data(), sizeof(double)*36);
+[36.523s]       |         [32m[K~~~~~~[m[K    
+[36.523s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::updateOdometry(const gazebo::common::Time&)[m[K’:
+[36.524s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:370:55:[m[K [01;31m[Kerror: [m[Kcannot resolve overloaded function ‘[01m[KX[m[K’ based on conversion to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[36.524s]   370 |             odom_.pose.pose.orientation.x = pos.Rot().[01;31m[KX[m[K;
+[36.524s]       |                                                       [01;31m[K^[m[K
+[36.524s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:371:55:[m[K [01;31m[Kerror: [m[Kcannot resolve overloaded function ‘[01m[KY[m[K’ based on conversion to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[36.525s]   371 |             odom_.pose.pose.orientation.y = pos.Rot().[01;31m[KY[m[K;
+[36.525s]       |                                                       [01;31m[K^[m[K
+[36.525s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:372:55:[m[K [01;31m[Kerror: [m[Kcannot resolve overloaded function ‘[01m[KZ[m[K’ based on conversion to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[36.526s]   372 |             odom_.pose.pose.orientation.z = pos.Rot().[01;31m[KZ[m[K;
+[36.526s]       |                                                       [01;31m[K^[m[K
+[36.526s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:373:55:[m[K [01;31m[Kerror: [m[Kcannot resolve overloaded function ‘[01m[KW[m[K’ based on conversion to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_w_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[36.527s]   373 |             odom_.pose.pose.orientation.w = pos.Rot().[01;31m[KW[m[K;
+[36.527s]       |                                                       [01;31m[K^[m[K
+[36.527s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:381:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ignition::math::v6::Quaternion<double>[m[K’ has no member named ‘[01m[Kyaw[m[K’; did you mean ‘[01m[KYaw[m[K’?
+[36.527s]   381 |             float yaw = pos.Rot().[01;31m[Kyaw[m[K();
+[36.528s]       |                                   [01;31m[K^~~[m[K
+[36.528s]       |                                   [32m[KYaw[m[K
+[36.561s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::updateViaWheelEc(const gazebo::common::Time&)[m[K’:
+[36.562s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:425:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_encoder_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose_ed_[m[K’?
+[36.563s]   425 |         double dx = (ssum) / 2.0 * cos([01;31m[Kpose_encoder_[m[K.theta + (sdiff) / (2.0 * b));
+[36.563s]       |                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[36.564s]       |                                        [32m[Kpose_ed_[m[K
+[36.564s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::odomTFPublisher(const gazebo::common::Time&)[m[K’:
+[36.565s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:457:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconvert[m[K’ is not a member of ‘[01m[Kgazebo_ros[m[K’; did you mean ‘[01m[KConvert[m[K’?
+[36.565s]   457 |         msg.header.stamp = gazebo_ros::[01;31m[Kconvert[m[K<builtin_interfaces::msg::Time>(current_time);
+[36.565s]       |                                        [01;31m[K^~~~~~~[m[K
+[36.565s]       |                                        [32m[KConvert[m[K
+[36.566s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:457:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[36.566s]   457 | er.stamp = gazebo_ros::convert<builtin_interfaces::msg::Time[01;31m[K>[m[K(current_time);
+[36.566s]       |                                                             [01;31m[K^[m[K
+[36.567s] 
+[36.567s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:459:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kchild[m[K’
+[36.567s]   459 |         msg.[01;31m[Kchild[m[K.frame_id = robot_base_frame_;
+[36.568s]       |             [01;31m[K^~~~~[m[K
+[36.568s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:460:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kconvert[m[K’ is not a member of ‘[01m[Kgazebo_ros[m[K’; did you mean ‘[01m[KConvert[m[K’?
+[36.568s]   460 |         msg.transform.translation = gazebo_ros::[01;31m[Kconvert[m[K<geometry_msgs::msg::Vector3>(odom_.pose.position);
+[36.569s]       |                                                 [01;31m[K^~~~~~~[m[K
+[36.569s]       |                                                 [32m[KConvert[m[K
+[36.569s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:460:84:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[36.570s]   460 | ranslation = gazebo_ros::convert<geometry_msgs::msg::Vector3[01;31m[K>[m[K(odom_.pose.position);
+[36.570s]       |                                                             [01;31m[K^[m[K
+[36.570s] 
+[36.571s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:460:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+[36.571s]   460 |  gazebo_ros::convert<geometry_msgs::msg::Vector3>(odom_.pose.[01;31m[Kposition[m[K);
+[36.571s]       |                                                              [01;31m[K^~~~~~~~[m[K
+[36.572s] 
+[36.572s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:461:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranform[m[K’; did you mean ‘[01m[Ktransform[m[K’?
+[36.572s]   461 |         msg.[01;31m[Ktranform[m[K.rotation = odom_.pose.pose.orientation;
+[36.572s]       |             [01;31m[K^~~~~~~~[m[K
+[36.573s]       |             [32m[Ktransform[m[K
+[36.590s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:[m[K In member function ‘[01m[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::wheelTFPublisher(const gazebo::common::Time&)[m[K’:
+[36.591s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:465:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knum_wheel_pairs_[m[K’ was not declared in this scope
+[36.591s]   465 |         for (unsigned int i = 0; i < 2 * [01;31m[Knum_wheel_pairs_[m[K; ++i) {
+[36.591s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[36.606s] [01m[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:469:79:[m[K [01;31m[Kerror: [m[K‘[01m[K_current_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_time[m[K’?
+[36.607s]   469 | .stamp = gazebo_ros::Convert<builtin_interfaces::msg::Time>([01;31m[K_current_time[m[K);
+[36.607s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[36.607s]       |                                                             [32m[Kcurrent_time[m[K
+[41.256s] gmake[2]: *** [CMakeFiles/Diff_drive_custom_plugin.dir/build.make:76: CMakeFiles/Diff_drive_custom_plugin.dir/src/Diff_drive_custom.cpp.o] Error 1
+[41.257s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Diff_drive_custom_plugin.dir/all] Error 2
+[41.258s] gmake: *** [Makefile:146: all] Error 2
+[41.317s] Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6

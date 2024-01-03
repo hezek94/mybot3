@@ -1,0 +1,6 @@
+Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/femi/Mybot2_ws/src/Diff_drive_custom_plugin -DCMAKE_INSTALL_PREFIX=/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin
+Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/femi/Mybot2_ws/src/Diff_drive_custom_plugin -DCMAKE_INSTALL_PREFIX=/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin
+Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin
+Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin

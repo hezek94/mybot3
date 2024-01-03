@@ -1,0 +1,4 @@
+source;share/Diff_drive_custom_plugin/local_setup.bash
+source;share/Diff_drive_custom_plugin/local_setup.dsv
+source;share/Diff_drive_custom_plugin/local_setup.sh
+source;share/Diff_drive_custom_plugin/local_setup.zsh

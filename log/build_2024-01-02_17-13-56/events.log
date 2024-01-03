@@ -1,0 +1,617 @@
+[0.000000] (-) TimerEvent: {}
+[0.000784] (Diff_drive_custom_plugin) JobQueued: {'identifier': 'Diff_drive_custom_plugin', 'dependencies': OrderedDict()}
+[0.002143] (Diff_drive_custom_plugin) JobStarted: {'identifier': 'Diff_drive_custom_plugin'}
+[0.100515] (-) TimerEvent: {}
+[0.202348] (-) TimerEvent: {}
+[0.261872] (Diff_drive_custom_plugin) JobProgress: {'identifier': 'Diff_drive_custom_plugin', 'progress': 'cmake'}
+[0.265320] (Diff_drive_custom_plugin) JobProgress: {'identifier': 'Diff_drive_custom_plugin', 'progress': 'build'}
+[0.266965] (Diff_drive_custom_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin', '--', '-j6', '-l6'], 'cwd': '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'femi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/femi'), ('OLDPWD', '/home/femi/Mybot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1800'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/femi/Mybot2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'femi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'femi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/femi-virtual-machine:@/tmp/.ICE-unix/1769,unix/femi-virtual-machine:/tmp/.ICE-unix/1769'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/217f4764_39cb_4938_8a68_5a64e96f159f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C54CG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin:/opt/ros/humble')]), 'shell': False}
+[0.303076] (-) TimerEvent: {}
+[0.404083] (-) TimerEvent: {}
+[0.505142] (-) TimerEvent: {}
+[0.575271] (Diff_drive_custom_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Diff_drive_custom_plugin.dir/src/Diff_drive_custom.cpp.o\x1b[0m\n'}
+[0.605951] (-) TimerEvent: {}
+[0.707042] (-) TimerEvent: {}
+[0.808399] (-) TimerEvent: {}
+[0.909982] (-) TimerEvent: {}
+[1.011614] (-) TimerEvent: {}
+[1.112768] (-) TimerEvent: {}
+[1.213768] (-) TimerEvent: {}
+[1.315114] (-) TimerEvent: {}
+[1.416029] (-) TimerEvent: {}
+[1.516898] (-) TimerEvent: {}
+[1.756369] (-) TimerEvent: {}
+[1.858191] (-) TimerEvent: {}
+[1.959352] (-) TimerEvent: {}
+[2.060381] (-) TimerEvent: {}
+[2.161439] (-) TimerEvent: {}
+[2.262757] (-) TimerEvent: {}
+[2.363784] (-) TimerEvent: {}
+[2.465507] (-) TimerEvent: {}
+[2.566504] (-) TimerEvent: {}
+[2.667627] (-) TimerEvent: {}
+[2.769896] (-) TimerEvent: {}
+[2.871574] (-) TimerEvent: {}
+[2.972604] (-) TimerEvent: {}
+[3.073561] (-) TimerEvent: {}
+[3.175191] (-) TimerEvent: {}
+[3.276145] (-) TimerEvent: {}
+[3.377416] (-) TimerEvent: {}
+[3.478748] (-) TimerEvent: {}
+[3.579706] (-) TimerEvent: {}
+[3.681446] (-) TimerEvent: {}
+[3.782441] (-) TimerEvent: {}
+[3.883711] (-) TimerEvent: {}
+[3.985022] (-) TimerEvent: {}
+[4.087583] (-) TimerEvent: {}
+[4.188646] (-) TimerEvent: {}
+[4.289763] (-) TimerEvent: {}
+[4.391053] (-) TimerEvent: {}
+[4.492508] (-) TimerEvent: {}
+[4.595475] (-) TimerEvent: {}
+[4.699980] (-) TimerEvent: {}
+[4.801414] (-) TimerEvent: {}
+[4.903445] (-) TimerEvent: {}
+[5.005236] (-) TimerEvent: {}
+[5.107509] (-) TimerEvent: {}
+[5.208895] (-) TimerEvent: {}
+[5.310755] (-) TimerEvent: {}
+[5.412773] (-) TimerEvent: {}
+[5.513877] (-) TimerEvent: {}
+[5.614620] (-) TimerEvent: {}
+[5.715461] (-) TimerEvent: {}
+[5.816906] (-) TimerEvent: {}
+[5.918072] (-) TimerEvent: {}
+[6.019726] (-) TimerEvent: {}
+[6.120733] (-) TimerEvent: {}
+[6.221728] (-) TimerEvent: {}
+[6.323450] (-) TimerEvent: {}
+[6.424871] (-) TimerEvent: {}
+[6.525743] (-) TimerEvent: {}
+[6.655876] (-) TimerEvent: {}
+[6.756864] (-) TimerEvent: {}
+[6.861867] (-) TimerEvent: {}
+[6.963060] (-) TimerEvent: {}
+[7.064430] (-) TimerEvent: {}
+[7.165690] (-) TimerEvent: {}
+[7.267015] (-) TimerEvent: {}
+[7.367743] (-) TimerEvent: {}
+[7.468718] (-) TimerEvent: {}
+[7.570049] (-) TimerEvent: {}
+[7.670809] (-) TimerEvent: {}
+[7.771955] (-) TimerEvent: {}
+[7.873345] (-) TimerEvent: {}
+[7.974879] (-) TimerEvent: {}
+[8.075900] (-) TimerEvent: {}
+[8.177753] (-) TimerEvent: {}
+[8.279282] (-) TimerEvent: {}
+[8.380697] (-) TimerEvent: {}
+[8.482145] (-) TimerEvent: {}
+[8.583775] (-) TimerEvent: {}
+[8.684881] (-) TimerEvent: {}
+[8.786229] (-) TimerEvent: {}
+[8.887732] (-) TimerEvent: {}
+[8.988800] (-) TimerEvent: {}
+[9.090560] (-) TimerEvent: {}
+[9.192006] (-) TimerEvent: {}
+[9.293495] (-) TimerEvent: {}
+[9.395612] (-) TimerEvent: {}
+[9.497063] (-) TimerEvent: {}
+[9.598791] (-) TimerEvent: {}
+[9.699690] (-) TimerEvent: {}
+[9.800974] (-) TimerEvent: {}
+[9.902873] (-) TimerEvent: {}
+[10.003849] (-) TimerEvent: {}
+[10.104747] (-) TimerEvent: {}
+[10.205889] (-) TimerEvent: {}
+[10.306902] (-) TimerEvent: {}
+[10.407986] (-) TimerEvent: {}
+[10.509603] (-) TimerEvent: {}
+[10.610645] (-) TimerEvent: {}
+[10.711557] (-) TimerEvent: {}
+[10.813610] (-) TimerEvent: {}
+[10.914643] (-) TimerEvent: {}
+[11.015503] (-) TimerEvent: {}
+[11.117046] (-) TimerEvent: {}
+[11.218853] (-) TimerEvent: {}
+[11.320476] (-) TimerEvent: {}
+[11.421635] (-) TimerEvent: {}
+[11.523315] (-) TimerEvent: {}
+[11.624246] (-) TimerEvent: {}
+[11.726079] (-) TimerEvent: {}
+[11.827369] (-) TimerEvent: {}
+[11.929003] (-) TimerEvent: {}
+[12.029998] (-) TimerEvent: {}
+[12.131421] (-) TimerEvent: {}
+[12.232334] (-) TimerEvent: {}
+[12.333789] (-) TimerEvent: {}
+[12.435003] (-) TimerEvent: {}
+[12.536309] (-) TimerEvent: {}
+[12.637620] (-) TimerEvent: {}
+[12.738456] (-) TimerEvent: {}
+[12.839836] (-) TimerEvent: {}
+[12.940714] (-) TimerEvent: {}
+[13.041896] (-) TimerEvent: {}
+[13.143156] (-) TimerEvent: {}
+[13.244792] (-) TimerEvent: {}
+[13.346324] (-) TimerEvent: {}
+[13.447863] (-) TimerEvent: {}
+[13.549063] (-) TimerEvent: {}
+[13.650971] (-) TimerEvent: {}
+[13.752056] (-) TimerEvent: {}
+[13.853476] (-) TimerEvent: {}
+[13.954890] (-) TimerEvent: {}
+[14.056086] (-) TimerEvent: {}
+[14.157294] (-) TimerEvent: {}
+[14.258233] (-) TimerEvent: {}
+[14.359644] (-) TimerEvent: {}
+[14.460947] (-) TimerEvent: {}
+[14.562637] (-) TimerEvent: {}
+[14.663704] (-) TimerEvent: {}
+[14.764914] (-) TimerEvent: {}
+[14.866285] (-) TimerEvent: {}
+[14.967567] (-) TimerEvent: {}
+[15.069159] (-) TimerEvent: {}
+[15.170893] (-) TimerEvent: {}
+[15.272194] (-) TimerEvent: {}
+[15.373195] (-) TimerEvent: {}
+[15.474255] (-) TimerEvent: {}
+[15.575142] (-) TimerEvent: {}
+[15.675959] (-) TimerEvent: {}
+[15.776667] (-) TimerEvent: {}
+[15.877742] (-) TimerEvent: {}
+[15.945737] (Diff_drive_custom_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:30\x1b[m\x1b[K:\n'}
+[15.946467] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.947418] (Diff_drive_custom_plugin) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[15.948111] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.978372] (-) TimerEvent: {}
+[16.079537] (-) TimerEvent: {}
+[16.180826] (-) TimerEvent: {}
+[16.281986] (-) TimerEvent: {}
+[16.383109] (-) TimerEvent: {}
+[16.484387] (-) TimerEvent: {}
+[16.585473] (-) TimerEvent: {}
+[16.637732] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:407:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstray \xe2\x80\x98\x1b[01m\x1b[K`\x1b[m\x1b[K\xe2\x80\x99 in program\n'}
+[16.638061] (Diff_drive_custom_plugin) StderrLine: {'line': b'  407 | \x1b[01;31m\x1b[K`\x1b[m\x1b[K\n'}
+[16.638336] (Diff_drive_custom_plugin) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.686612] (-) TimerEvent: {}
+[16.788825] (-) TimerEvent: {}
+[16.889684] (-) TimerEvent: {}
+[16.990863] (-) TimerEvent: {}
+[17.091952] (-) TimerEvent: {}
+[17.193188] (-) TimerEvent: {}
+[17.294165] (-) TimerEvent: {}
+[17.395701] (-) TimerEvent: {}
+[17.496541] (-) TimerEvent: {}
+[17.597651] (-) TimerEvent: {}
+[17.699085] (-) TimerEvent: {}
+[17.800367] (-) TimerEvent: {}
+[17.901726] (-) TimerEvent: {}
+[18.002580] (-) TimerEvent: {}
+[18.103438] (-) TimerEvent: {}
+[18.204786] (-) TimerEvent: {}
+[18.306096] (-) TimerEvent: {}
+[18.407242] (-) TimerEvent: {}
+[18.508261] (-) TimerEvent: {}
+[18.609377] (-) TimerEvent: {}
+[18.710888] (-) TimerEvent: {}
+[18.811733] (-) TimerEvent: {}
+[18.912758] (-) TimerEvent: {}
+[19.013852] (-) TimerEvent: {}
+[19.114944] (-) TimerEvent: {}
+[19.215820] (-) TimerEvent: {}
+[19.317019] (-) TimerEvent: {}
+[19.418130] (-) TimerEvent: {}
+[19.519588] (-) TimerEvent: {}
+[19.620785] (-) TimerEvent: {}
+[19.722370] (-) TimerEvent: {}
+[19.823488] (-) TimerEvent: {}
+[19.924485] (-) TimerEvent: {}
+[20.025718] (-) TimerEvent: {}
+[20.126845] (-) TimerEvent: {}
+[20.228050] (-) TimerEvent: {}
+[20.328958] (-) TimerEvent: {}
+[20.477692] (-) TimerEvent: {}
+[20.578818] (-) TimerEvent: {}
+[20.679633] (-) TimerEvent: {}
+[20.780931] (-) TimerEvent: {}
+[20.882455] (-) TimerEvent: {}
+[20.984109] (-) TimerEvent: {}
+[21.085177] (-) TimerEvent: {}
+[21.186322] (-) TimerEvent: {}
+[21.287351] (-) TimerEvent: {}
+[21.388153] (-) TimerEvent: {}
+[21.489114] (-) TimerEvent: {}
+[21.590045] (-) TimerEvent: {}
+[21.691053] (-) TimerEvent: {}
+[21.792426] (-) TimerEvent: {}
+[21.893658] (-) TimerEvent: {}
+[21.994659] (-) TimerEvent: {}
+[22.095880] (-) TimerEvent: {}
+[22.197460] (-) TimerEvent: {}
+[22.298736] (-) TimerEvent: {}
+[22.399924] (-) TimerEvent: {}
+[22.501082] (-) TimerEvent: {}
+[22.602222] (-) TimerEvent: {}
+[22.703143] (-) TimerEvent: {}
+[22.804013] (-) TimerEvent: {}
+[22.905301] (-) TimerEvent: {}
+[23.005986] (-) TimerEvent: {}
+[23.107722] (-) TimerEvent: {}
+[23.209056] (-) TimerEvent: {}
+[23.310251] (-) TimerEvent: {}
+[23.411710] (-) TimerEvent: {}
+[23.512594] (-) TimerEvent: {}
+[23.614295] (-) TimerEvent: {}
+[23.715952] (-) TimerEvent: {}
+[23.817529] (-) TimerEvent: {}
+[23.918792] (-) TimerEvent: {}
+[24.019989] (-) TimerEvent: {}
+[24.120874] (-) TimerEvent: {}
+[24.222150] (-) TimerEvent: {}
+[24.323154] (-) TimerEvent: {}
+[24.424159] (-) TimerEvent: {}
+[24.525863] (-) TimerEvent: {}
+[24.627121] (-) TimerEvent: {}
+[24.728164] (-) TimerEvent: {}
+[24.829415] (-) TimerEvent: {}
+[24.930811] (-) TimerEvent: {}
+[25.031581] (-) TimerEvent: {}
+[25.132991] (-) TimerEvent: {}
+[25.234797] (-) TimerEvent: {}
+[25.336286] (-) TimerEvent: {}
+[25.437625] (-) TimerEvent: {}
+[25.538997] (-) TimerEvent: {}
+[25.640735] (-) TimerEvent: {}
+[25.742046] (-) TimerEvent: {}
+[25.843705] (-) TimerEvent: {}
+[25.944722] (-) TimerEvent: {}
+[26.045750] (-) TimerEvent: {}
+[26.146473] (-) TimerEvent: {}
+[26.248209] (-) TimerEvent: {}
+[26.349596] (-) TimerEvent: {}
+[26.450490] (-) TimerEvent: {}
+[26.551953] (-) TimerEvent: {}
+[26.652718] (-) TimerEvent: {}
+[26.753759] (-) TimerEvent: {}
+[26.855274] (-) TimerEvent: {}
+[26.956915] (-) TimerEvent: {}
+[27.058627] (-) TimerEvent: {}
+[27.159458] (-) TimerEvent: {}
+[27.260449] (-) TimerEvent: {}
+[27.361674] (-) TimerEvent: {}
+[27.462774] (-) TimerEvent: {}
+[27.563971] (-) TimerEvent: {}
+[27.665844] (-) TimerEvent: {}
+[27.766681] (-) TimerEvent: {}
+[27.867980] (-) TimerEvent: {}
+[27.969334] (-) TimerEvent: {}
+[28.080092] (-) TimerEvent: {}
+[28.181449] (-) TimerEvent: {}
+[28.282978] (-) TimerEvent: {}
+[28.383775] (-) TimerEvent: {}
+[28.516802] (-) TimerEvent: {}
+[28.617600] (-) TimerEvent: {}
+[28.718656] (-) TimerEvent: {}
+[28.819740] (-) TimerEvent: {}
+[28.920914] (-) TimerEvent: {}
+[29.022416] (-) TimerEvent: {}
+[29.123801] (-) TimerEvent: {}
+[29.224982] (-) TimerEvent: {}
+[29.326331] (-) TimerEvent: {}
+[29.427765] (-) TimerEvent: {}
+[29.529379] (-) TimerEvent: {}
+[29.630192] (-) TimerEvent: {}
+[29.732190] (-) TimerEvent: {}
+[29.834252] (-) TimerEvent: {}
+[29.934953] (-) TimerEvent: {}
+[30.035775] (-) TimerEvent: {}
+[30.137111] (-) TimerEvent: {}
+[30.238867] (-) TimerEvent: {}
+[30.339557] (-) TimerEvent: {}
+[30.440827] (-) TimerEvent: {}
+[30.545732] (-) TimerEvent: {}
+[30.679643] (-) TimerEvent: {}
+[30.781004] (-) TimerEvent: {}
+[30.893850] (-) TimerEvent: {}
+[30.995744] (-) TimerEvent: {}
+[31.097469] (-) TimerEvent: {}
+[31.233953] (-) TimerEvent: {}
+[31.334906] (-) TimerEvent: {}
+[31.481262] (-) TimerEvent: {}
+[31.619250] (-) TimerEvent: {}
+[31.730008] (-) TimerEvent: {}
+[31.875423] (-) TimerEvent: {}
+[31.976753] (-) TimerEvent: {}
+[32.077837] (-) TimerEvent: {}
+[32.179023] (-) TimerEvent: {}
+[32.280080] (-) TimerEvent: {}
+[32.381326] (-) TimerEvent: {}
+[32.482474] (-) TimerEvent: {}
+[32.584311] (-) TimerEvent: {}
+[32.685061] (-) TimerEvent: {}
+[32.785881] (-) TimerEvent: {}
+[32.887227] (-) TimerEvent: {}
+[32.988090] (-) TimerEvent: {}
+[33.089037] (-) TimerEvent: {}
+[33.189887] (-) TimerEvent: {}
+[33.290964] (-) TimerEvent: {}
+[33.392688] (-) TimerEvent: {}
+[33.493942] (-) TimerEvent: {}
+[33.595270] (-) TimerEvent: {}
+[33.696302] (-) TimerEvent: {}
+[33.797592] (-) TimerEvent: {}
+[33.898939] (-) TimerEvent: {}
+[34.000104] (-) TimerEvent: {}
+[34.101359] (-) TimerEvent: {}
+[34.202491] (-) TimerEvent: {}
+[34.274093] (Diff_drive_custom_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[34.277155] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[34.277585] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[34.278015] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[34.278265] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[34.278510] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[34.279093] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[34.279497] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/CommonTypes.hh:24\x1b[m\x1b[K,\n'}
+[34.279808] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/Time.hh:26\x1b[m\x1b[K,\n'}
+[34.280289] (Diff_drive_custom_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:2\x1b[m\x1b[K:\n'}
+[34.280746] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.281136] (Diff_drive_custom_plugin) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[34.281540] (Diff_drive_custom_plugin) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.303311] (-) TimerEvent: {}
+[34.404701] (-) TimerEvent: {}
+[34.506236] (-) TimerEvent: {}
+[34.607341] (-) TimerEvent: {}
+[34.708049] (-) TimerEvent: {}
+[34.761346] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:37:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knew types may not be defined in a return type\n'}
+[34.761723] (Diff_drive_custom_plugin) StderrLine: {'line': b'   37 |     \x1b[01;31m\x1b[Kclass\x1b[m\x1b[K GazeboPrivateDiffDrive{\n'}
+[34.761949] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[34.762210] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:37:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K(perhaps a semicolon is missing after the definition of \xe2\x80\x98\x1b[01m\x1b[Kgazebo_plugins::GazeboPrivateDiffDrive\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[34.774058] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:37:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn type specification for constructor invalid\n'}
+[34.775662] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:95:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KLoad\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[34.776050] (Diff_drive_custom_plugin) StderrLine: {'line': b'   95 |     \x1b[01;31m\x1b[KGazeboDiffDrive\x1b[m\x1b[K::Load(gazebo::physics::ModelPtr _parent, sdf::ElementPtr _sdf)\n'}
+[34.776505] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.779700] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:95:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kint gazebo_plugins::GazeboDiffDrive::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.780594] (Diff_drive_custom_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:10\x1b[m\x1b[K:\n'}
+[34.780886] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/include/Diff_drive_custom_plugin/Diff_drive_custom.hpp:22:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo_plugins::GazeboDiffDrive::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.781168] (Diff_drive_custom_plugin) StderrLine: {'line': b'   22 |             void \x1b[01;36m\x1b[KLoad\x1b[m\x1b[K(gazebo::physics::ModelPtr _parent, sdf::ElementPtr _sdf) override;\n'}
+[34.781416] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[34.781726] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/include/Diff_drive_custom_plugin/Diff_drive_custom.hpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo_plugins::GazeboDiffDrive\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[34.782005] (Diff_drive_custom_plugin) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KGazeboDiffDrive\x1b[m\x1b[K : public gazebo::ModelPlugin\n'}
+[34.782244] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.782458] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo_plugins::GazeboDiffDrive::Reset()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.782671] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:246:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgazebo::common::Time gazebo_plugins::GazeboPrivateDiffDrive::last_update_time_\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[34.782884] (Diff_drive_custom_plugin) StderrLine: {'line': b'  246 |         _driveImpl->\x1b[01;31m\x1b[Klast_update_time_\x1b[m\x1b[K =\n'}
+[34.783374] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.783736] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:65:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.784010] (Diff_drive_custom_plugin) StderrLine: {'line': b'   65 |         gazebo::common::Time \x1b[01;36m\x1b[Klast_update_time_\x1b[m\x1b[K;\n'}
+[34.784231] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.784529] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:247:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<boost::shared_ptr<gazebo::physics::Joint> > gazebo_plugins::GazeboPrivateDiffDrive::joints_\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[34.784767] (Diff_drive_custom_plugin) StderrLine: {'line': b'  247 |             _driveImpl->\x1b[01;31m\x1b[Kjoints_\x1b[m\x1b[K[GazeboRosDiffDrivePrivate::LEFT]->GetWorld()->SimTime();\n'}
+[34.785035] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.785253] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:58:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.785531] (Diff_drive_custom_plugin) StderrLine: {'line': b'   58 |         std::vector<gazebo::physics::JointPtr> \x1b[01;36m\x1b[Kjoints_\x1b[m\x1b[K;\n'}
+[34.785751] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.785981] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:247:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGazeboRosDiffDrivePrivate\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[34.786222] (Diff_drive_custom_plugin) StderrLine: {'line': b'  247 |             _driveImpl->joints_[\x1b[01;31m\x1b[KGazeboRosDiffDrivePrivate\x1b[m\x1b[K::LEFT]->GetWorld()->SimTime();\n'}
+[34.786456] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.795289] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:248:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo_plugins::GazeboPrivateDiffDrive\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Knum_wheel_pairs_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.795843] (Diff_drive_custom_plugin) StderrLine: {'line': b'  248 |         for (unsigned int i = 0; i < _driveImpl->\x1b[01;31m\x1b[Knum_wheel_pairs_\x1b[m\x1b[K; ++i) {\n'}
+[34.797097] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.797406] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:249:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<boost::shared_ptr<gazebo::physics::Joint> > gazebo_plugins::GazeboPrivateDiffDrive::joints_\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[34.797691] (Diff_drive_custom_plugin) StderrLine: {'line': b'  249 |             if (_driveImpl->\x1b[01;31m\x1b[Kjoints_\x1b[m\x1b[K[2 * i + GazeboRosDiffDrivePrivate::LEFT] &&\n'}
+[34.797914] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.798223] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:58:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.798464] (Diff_drive_custom_plugin) StderrLine: {'line': b'   58 |         std::vector<gazebo::physics::JointPtr> \x1b[01;36m\x1b[Kjoints_\x1b[m\x1b[K;\n'}
+[34.798906] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.799134] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:249:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGazeboRosDiffDrivePrivate\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[34.799352] (Diff_drive_custom_plugin) StderrLine: {'line': b'  249 |             if (_driveImpl->joints_[2 * i + \x1b[01;31m\x1b[KGazeboRosDiffDrivePrivate\x1b[m\x1b[K::LEFT] &&\n'}
+[34.799626] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.799852] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:250:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<boost::shared_ptr<gazebo::physics::Joint> > gazebo_plugins::GazeboPrivateDiffDrive::joints_\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[34.800077] (Diff_drive_custom_plugin) StderrLine: {'line': b'  250 |             _driveImpl->\x1b[01;31m\x1b[Kjoints_\x1b[m\x1b[K[2 * i + GazeboRosDiffDrivePrivate::RIGHT])\n'}
+[34.800285] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.800497] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:58:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.800710] (Diff_drive_custom_plugin) StderrLine: {'line': b'   58 |         std::vector<gazebo::physics::JointPtr> \x1b[01;36m\x1b[Kjoints_\x1b[m\x1b[K;\n'}
+[34.800914] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.801118] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:250:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGazeboRosDiffDrivePrivate\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[34.801323] (Diff_drive_custom_plugin) StderrLine: {'line': b'  250 |             _driveImpl->joints_[2 * i + \x1b[01;31m\x1b[KGazeboRosDiffDrivePrivate\x1b[m\x1b[K::RIGHT])\n'}
+[34.801566] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.801842] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:252:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<boost::shared_ptr<gazebo::physics::Joint> > gazebo_plugins::GazeboPrivateDiffDrive::joints_\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[34.802071] (Diff_drive_custom_plugin) StderrLine: {'line': b'  252 |             _driveImpl->\x1b[01;31m\x1b[Kjoints_\x1b[m\x1b[K[2 * i + GazeboRosDiffDrivePrivate::LEFT]->SetParam(\n'}
+[34.802275] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.802490] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:58:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.802890] (Diff_drive_custom_plugin) StderrLine: {'line': b'   58 |         std::vector<gazebo::physics::JointPtr> \x1b[01;36m\x1b[Kjoints_\x1b[m\x1b[K;\n'}
+[34.803096] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.803299] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:252:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGazeboRosDiffDrivePrivate\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[34.803516] (Diff_drive_custom_plugin) StderrLine: {'line': b'  252 |             _driveImpl->joints_[2 * i + \x1b[01;31m\x1b[KGazeboRosDiffDrivePrivate\x1b[m\x1b[K::LEFT]->SetParam(\n'}
+[34.803724] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.804008] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:253:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo_plugins::GazeboPrivateDiffDrive\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmax_wheel_torque_\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdouble gazebo_plugins::GazeboPrivateDiffDrive::max_wheel_torque\x1b[m\x1b[K\xe2\x80\x99? (not accessible from this context)\n'}
+[34.804262] (Diff_drive_custom_plugin) StderrLine: {'line': b'  253 |                 "fmax", 0, _driveImpl->\x1b[01;31m\x1b[Kmax_wheel_torque_\x1b[m\x1b[K);\n'}
+[34.804590] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.804802] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:50:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.805030] (Diff_drive_custom_plugin) StderrLine: {'line': b'   50 |         double \x1b[01;36m\x1b[Kmax_wheel_torque\x1b[m\x1b[K; // max torque of each wheel\n'}
+[34.805270] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.805532] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:254:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<boost::shared_ptr<gazebo::physics::Joint> > gazebo_plugins::GazeboPrivateDiffDrive::joints_\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[34.805785] (Diff_drive_custom_plugin) StderrLine: {'line': b'  254 |             _driveImpl->\x1b[01;31m\x1b[Kjoints_\x1b[m\x1b[K[2 * i + GazeboRosDiffDrivePrivate::RIGHT]->SetParam(\n'}
+[34.806018] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.806240] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:58:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.806547] (Diff_drive_custom_plugin) StderrLine: {'line': b'   58 |         std::vector<gazebo::physics::JointPtr> \x1b[01;36m\x1b[Kjoints_\x1b[m\x1b[K;\n'}
+[34.806781] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.806999] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:254:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGazeboRosDiffDrivePrivate\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[34.807567] (Diff_drive_custom_plugin) StderrLine: {'line': b'  254 |             _driveImpl->joints_[2 * i + \x1b[01;31m\x1b[KGazeboRosDiffDrivePrivate\x1b[m\x1b[K::RIGHT]->SetParam(\n'}
+[34.807832] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.808039] (-) TimerEvent: {}
+[34.808354] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:255:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo_plugins::GazeboPrivateDiffDrive\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmax_wheel_torque_\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdouble gazebo_plugins::GazeboPrivateDiffDrive::max_wheel_torque\x1b[m\x1b[K\xe2\x80\x99? (not accessible from this context)\n'}
+[34.808764] (Diff_drive_custom_plugin) StderrLine: {'line': b'  255 |                 "fmax", 0, _driveImpl->\x1b[01;31m\x1b[Kmax_wheel_torque_\x1b[m\x1b[K);\n'}
+[34.808978] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.809285] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:50:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.809513] (Diff_drive_custom_plugin) StderrLine: {'line': b'   50 |         double \x1b[01;36m\x1b[Kmax_wheel_torque\x1b[m\x1b[K; // max torque of each wheel\n'}
+[34.809750] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.810010] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:259:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo_plugins::GazeboPrivateDiffDrive\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpose_encoder_\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose2D gazebo_plugins::GazeboPrivateDiffDrive::pose_ed_\x1b[m\x1b[K\xe2\x80\x99? (not accessible from this context)\n'}
+[34.810347] (Diff_drive_custom_plugin) StderrLine: {'line': b'  259 |             _driveImpl->\x1b[01;31m\x1b[Kpose_encoder_\x1b[m\x1b[K.x = 0;\n'}
+[34.810589] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.810843] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:67:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.811400] (Diff_drive_custom_plugin) StderrLine: {'line': b'   67 |         geometry_msgs::msg::Pose2D \x1b[01;36m\x1b[Kpose_ed_\x1b[m\x1b[K;\n'}
+[34.811693] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[34.812103] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:260:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo_plugins::GazeboPrivateDiffDrive\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpose_encoder_\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose2D gazebo_plugins::GazeboPrivateDiffDrive::pose_ed_\x1b[m\x1b[K\xe2\x80\x99? (not accessible from this context)\n'}
+[34.812415] (Diff_drive_custom_plugin) StderrLine: {'line': b'  260 |             _driveImpl->\x1b[01;31m\x1b[Kpose_encoder_\x1b[m\x1b[K.y = 0;\n'}
+[34.812660] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.812930] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:67:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.813164] (Diff_drive_custom_plugin) StderrLine: {'line': b'   67 |         geometry_msgs::msg::Pose2D \x1b[01;36m\x1b[Kpose_ed_\x1b[m\x1b[K;\n'}
+[34.813430] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[34.813671] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:261:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo_plugins::GazeboPrivateDiffDrive\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpose_encoder_\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose2D gazebo_plugins::GazeboPrivateDiffDrive::pose_ed_\x1b[m\x1b[K\xe2\x80\x99? (not accessible from this context)\n'}
+[34.813975] (Diff_drive_custom_plugin) StderrLine: {'line': b'  261 |             _driveImpl->\x1b[01;31m\x1b[Kpose_encoder_\x1b[m\x1b[K.theta = 0;\n'}
+[34.814210] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.814493] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:67:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.815094] (Diff_drive_custom_plugin) StderrLine: {'line': b'   67 |         geometry_msgs::msg::Pose2D \x1b[01;36m\x1b[Kpose_ed_\x1b[m\x1b[K;\n'}
+[34.815366] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[34.815596] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:262:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble gazebo_plugins::GazeboPrivateDiffDrive::targetX_\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[34.815944] (Diff_drive_custom_plugin) StderrLine: {'line': b'  262 |             _driveImpl->\x1b[01;31m\x1b[KtargetX_\x1b[m\x1b[K = 0;\n'}
+[34.816193] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[34.816430] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:63:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.816652] (Diff_drive_custom_plugin) StderrLine: {'line': b'   63 |         double \x1b[01;36m\x1b[KtargetX_\x1b[m\x1b[K{0.0}; //linear velocity from feedback cmd\n'}
+[34.816903] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[34.817127] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:263:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble gazebo_plugins::GazeboPrivateDiffDrive::targetZ\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[34.817421] (Diff_drive_custom_plugin) StderrLine: {'line': b'  263 |             _driveImpl->\x1b[01;31m\x1b[KtargetZ\x1b[m\x1b[K= 0;\n'}
+[34.817677] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.817966] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:64:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[34.818253] (Diff_drive_custom_plugin) StderrLine: {'line': b'   64 |         double \x1b[01;36m\x1b[KtargetZ\x1b[m\x1b[K{0.0}; //angular velocity from feedback command\n'}
+[34.818549] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.824070] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::onChildUpdate(const gazebo::common::UpdateInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.824441] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:282:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_actuator_update_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Klast_encoder_update_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[34.824678] (Diff_drive_custom_plugin) StderrLine: {'line': b'  282 |         double seconds_since_last_update = ( current_time - \x1b[01;31m\x1b[Klast_actuator_update_\x1b[m\x1b[K ).Double();\n'}
+[34.825001] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.825238] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Klast_encoder_update_\x1b[m\x1b[K\n'}
+[34.834501] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:330:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvoid value not ignored as it ought to be\n'}
+[34.834926] (Diff_drive_custom_plugin) StderrLine: {'line': b'  330 |                 \x1b[01;31m\x1b[Kjoints_[2 * i + LEFT]->SetVelocity(0,  wheel_speed[2 * i + LEFT] * wheel_diameter_[i] / 2.0)\x1b[m\x1b[K;\n'}
+[34.835196] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.835424] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:332:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvoid value not ignored as it ought to be\n'}
+[34.835636] (Diff_drive_custom_plugin) StderrLine: {'line': b'  332 |                 \x1b[01;31m\x1b[Kjoints_[2 * i + RIGHT]->SetVelocity(0, wheel_speed[2 * i + RIGHT] * wheel_diameter_[i] / 2.0)\x1b[m\x1b[K;\n'}
+[34.835886] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.836963] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::PublishOdometry(const gazebo::common::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.837262] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:348:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmemcpy\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.837963] (Diff_drive_custom_plugin) StderrLine: {'line': b'  348 |                 }\n'}
+[34.838368] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[34.838590] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[34.838814] (Diff_drive_custom_plugin) StderrLine: {'line': b'  349 |             // Copy values from cov to odom_.pose.covariance\n'}
+[34.839415] (Diff_drive_custom_plugin) StderrLine: {'line': b'  350 |         \x1b[32m\x1b[Kmemcpy\x1b[m\x1b[K(&odom_.pose.covariance[0], cov.data(), sizeof(double)*36);\n'}
+[34.839728] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K    \n'}
+[34.840006] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::updateOdometry(const gazebo::common::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.840230] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:369:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot resolve overloaded function \xe2\x80\x98\x1b[01m\x1b[KX\x1b[m\x1b[K\xe2\x80\x99 based on conversion to type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_x_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[34.840603] (Diff_drive_custom_plugin) StderrLine: {'line': b'  369 |             odom_.pose.pose.orientation.x = pos.Rot().\x1b[01;31m\x1b[KX\x1b[m\x1b[K;\n'}
+[34.840842] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[34.841077] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:370:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot resolve overloaded function \xe2\x80\x98\x1b[01m\x1b[KY\x1b[m\x1b[K\xe2\x80\x99 based on conversion to type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_y_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[34.841307] (Diff_drive_custom_plugin) StderrLine: {'line': b'  370 |             odom_.pose.pose.orientation.y = pos.Rot().\x1b[01;31m\x1b[KY\x1b[m\x1b[K;\n'}
+[34.841569] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[34.843068] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:371:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot resolve overloaded function \xe2\x80\x98\x1b[01m\x1b[KZ\x1b[m\x1b[K\xe2\x80\x99 based on conversion to type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_z_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[34.844105] (Diff_drive_custom_plugin) StderrLine: {'line': b'  371 |             odom_.pose.pose.orientation.z = pos.Rot().\x1b[01;31m\x1b[KZ\x1b[m\x1b[K;\n'}
+[34.844453] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[34.844702] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:372:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot resolve overloaded function \xe2\x80\x98\x1b[01m\x1b[KW\x1b[m\x1b[K\xe2\x80\x99 based on conversion to type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_w_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[34.844911] (Diff_drive_custom_plugin) StderrLine: {'line': b'  372 |             odom_.pose.pose.orientation.w = pos.Rot().\x1b[01;31m\x1b[KW\x1b[m\x1b[K;\n'}
+[34.845160] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[34.845384] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:380:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ignition::math::v6::Quaternion<double>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kyaw\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KYaw\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[34.845604] (Diff_drive_custom_plugin) StderrLine: {'line': b'  380 |             float yaw = pos.Rot().\x1b[01;31m\x1b[Kyaw\x1b[m\x1b[K();\n'}
+[34.846790] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[34.847274] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[KYaw\x1b[m\x1b[K\n'}
+[34.874549] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::updateViaWheelEc(const gazebo::common::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.875243] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:424:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_encoder_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpose_ed_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[34.875680] (Diff_drive_custom_plugin) StderrLine: {'line': b'  424 |         double dx = (ssum) / 2.0 * cos(\x1b[01;31m\x1b[Kpose_encoder_\x1b[m\x1b[K.theta + (sdiff) / (2.0 * b));\n'}
+[34.876578] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.876876] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[Kpose_ed_\x1b[m\x1b[K\n'}
+[34.877099] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::odomTFPublisher(const gazebo::common::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.877348] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:456:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconvert\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgazebo_ros\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KConvert\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[34.877600] (Diff_drive_custom_plugin) StderrLine: {'line': b'  456 |         msg.header.stamp = gazebo_ros::\x1b[01;31m\x1b[Kconvert\x1b[m\x1b[K<builtin_interfaces::msg::Time>(current_time);\n'}
+[34.877857] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.878076] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[KConvert\x1b[m\x1b[K\n'}
+[34.878355] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:456:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[34.878600] (Diff_drive_custom_plugin) StderrLine: {'line': b'  456 | er.stamp = gazebo_ros::convert<builtin_interfaces::msg::Time\x1b[01;31m\x1b[K>\x1b[m\x1b[K(current_time);\n'}
+[34.879162] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[34.879438] (Diff_drive_custom_plugin) StderrLine: {'line': b'\n'}
+[34.879674] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:458:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kchild\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.879978] (Diff_drive_custom_plugin) StderrLine: {'line': b'  458 |         msg.\x1b[01;31m\x1b[Kchild\x1b[m\x1b[K.frame_id = robot_base_frame_;\n'}
+[34.880227] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[34.880469] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:459:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconvert\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgazebo_ros\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KConvert\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[34.880692] (Diff_drive_custom_plugin) StderrLine: {'line': b'  459 |         msg.transform.translation = gazebo_ros::\x1b[01;31m\x1b[Kconvert\x1b[m\x1b[K<geometry_msgs::msg::Vector3>(odom_.pose.position);\n'}
+[34.880924] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[34.881346] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[KConvert\x1b[m\x1b[K\n'}
+[34.881772] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:459:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[34.882013] (Diff_drive_custom_plugin) StderrLine: {'line': b'  459 | ranslation = gazebo_ros::convert<geometry_msgs::msg::Vector3\x1b[01;31m\x1b[K>\x1b[m\x1b[K(odom_.pose.position);\n'}
+[34.882274] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[34.882592] (Diff_drive_custom_plugin) StderrLine: {'line': b'\n'}
+[34.882835] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:459:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kposition\x1b[m\x1b[K\xe2\x80\x99\n'}
+[34.883523] (Diff_drive_custom_plugin) StderrLine: {'line': b'  459 |  gazebo_ros::convert<geometry_msgs::msg::Vector3>(odom_.pose.\x1b[01;31m\x1b[Kposition\x1b[m\x1b[K);\n'}
+[34.883875] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[34.884182] (Diff_drive_custom_plugin) StderrLine: {'line': b'\n'}
+[34.884691] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:460:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing TransformStamped = struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktranform\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[34.885258] (Diff_drive_custom_plugin) StderrLine: {'line': b'  460 |         msg.\x1b[01;31m\x1b[Ktranform\x1b[m\x1b[K.rotation = odom_.pose.pose.orientation;\n'}
+[34.885710] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[34.886135] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |             \x1b[32m\x1b[Ktransform\x1b[m\x1b[K\n'}
+[34.901628] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo_plugins::GazeboPrivateDiffDrive::wheelTFPublisher(const gazebo::common::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.902138] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:464:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knum_wheel_pairs_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[34.902398] (Diff_drive_custom_plugin) StderrLine: {'line': b'  464 |         for (unsigned int i = 0; i < 2 * \x1b[01;31m\x1b[Knum_wheel_pairs_\x1b[m\x1b[K; ++i) {\n'}
+[34.902932] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.909022] (-) TimerEvent: {}
+[34.917087] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/Diff_drive_custom.cpp:468:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_current_time\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcurrent_time\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[34.917549] (Diff_drive_custom_plugin) StderrLine: {'line': b'  468 | .stamp = gazebo_ros::Convert<builtin_interfaces::msg::Time>(\x1b[01;31m\x1b[K_current_time\x1b[m\x1b[K);\n'}
+[34.917798] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.918078] (Diff_drive_custom_plugin) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kcurrent_time\x1b[m\x1b[K\n'}
+[35.009756] (-) TimerEvent: {}
+[35.111054] (-) TimerEvent: {}
+[35.212659] (-) TimerEvent: {}
+[35.313665] (-) TimerEvent: {}
+[35.415232] (-) TimerEvent: {}
+[35.516497] (-) TimerEvent: {}
+[35.617529] (-) TimerEvent: {}
+[35.718813] (-) TimerEvent: {}
+[35.819738] (-) TimerEvent: {}
+[35.921118] (-) TimerEvent: {}
+[36.022341] (-) TimerEvent: {}
+[36.123237] (-) TimerEvent: {}
+[36.224495] (-) TimerEvent: {}
+[36.325355] (-) TimerEvent: {}
+[36.426312] (-) TimerEvent: {}
+[36.527542] (-) TimerEvent: {}
+[36.628690] (-) TimerEvent: {}
+[36.729711] (-) TimerEvent: {}
+[36.830785] (-) TimerEvent: {}
+[36.932165] (-) TimerEvent: {}
+[37.033249] (-) TimerEvent: {}
+[37.134213] (-) TimerEvent: {}
+[37.235614] (-) TimerEvent: {}
+[37.337009] (-) TimerEvent: {}
+[37.437942] (-) TimerEvent: {}
+[37.538990] (-) TimerEvent: {}
+[37.639939] (-) TimerEvent: {}
+[37.741249] (-) TimerEvent: {}
+[37.842602] (-) TimerEvent: {}
+[37.943370] (-) TimerEvent: {}
+[38.044431] (-) TimerEvent: {}
+[38.145303] (-) TimerEvent: {}
+[38.246305] (-) TimerEvent: {}
+[38.347679] (-) TimerEvent: {}
+[38.448919] (-) TimerEvent: {}
+[38.549924] (-) TimerEvent: {}
+[38.651039] (-) TimerEvent: {}
+[38.752904] (-) TimerEvent: {}
+[38.854706] (-) TimerEvent: {}
+[38.956636] (-) TimerEvent: {}
+[39.057631] (-) TimerEvent: {}
+[39.158951] (-) TimerEvent: {}
+[39.259958] (-) TimerEvent: {}
+[39.324887] (Diff_drive_custom_plugin) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Diff_drive_custom_plugin.dir/build.make:76: CMakeFiles/Diff_drive_custom_plugin.dir/src/Diff_drive_custom.cpp.o] Error 1\n'}
+[39.326425] (Diff_drive_custom_plugin) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Diff_drive_custom_plugin.dir/all] Error 2\n'}
+[39.327550] (Diff_drive_custom_plugin) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[39.335922] (Diff_drive_custom_plugin) CommandEnded: {'returncode': 2}
+[39.360493] (-) TimerEvent: {}
+[39.463403] (-) TimerEvent: {}
+[39.564461] (-) TimerEvent: {}
+[39.665435] (-) TimerEvent: {}
+[39.767407] (-) TimerEvent: {}
+[39.868497] (-) TimerEvent: {}
+[39.969675] (-) TimerEvent: {}
+[40.071522] (-) TimerEvent: {}
+[40.172895] (-) TimerEvent: {}
+[40.274821] (-) TimerEvent: {}
+[40.376259] (-) TimerEvent: {}
+[40.402491] (Diff_drive_custom_plugin) JobEnded: {'identifier': 'Diff_drive_custom_plugin', 'rc': 2}
+[40.410506] (-) EventReactorShutdown: {}

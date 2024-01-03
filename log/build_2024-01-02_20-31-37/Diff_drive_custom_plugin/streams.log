@@ -1,0 +1,27 @@
+[0.311s] Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+[0.720s] [100%] Built target Diff_drive_custom_plugin
+[0.793s] Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+[1.093s] Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin
+[1.140s] -- Install configuration: ""
+[1.141s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/library_path.sh
+[1.141s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/library_path.dsv
+[1.142s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/
+[1.142s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/
+[1.145s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/lib/Diff_drive_custom_plugin/libDiff_drive_custom_plugin.so
+[1.149s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/ament_index/resource_index/package_run_dependencies/Diff_drive_custom_plugin
+[1.149s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/ament_index/resource_index/parent_prefix_path/Diff_drive_custom_plugin
+[1.150s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/ament_prefix_path.sh
+[1.151s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/ament_prefix_path.dsv
+[1.152s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/path.sh
+[1.153s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/path.dsv
+[1.153s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/local_setup.bash
+[1.155s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/local_setup.sh
+[1.156s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/local_setup.zsh
+[1.156s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/local_setup.dsv
+[1.157s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/package.dsv
+[1.157s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/ament_index/resource_index/packages/Diff_drive_custom_plugin
+[1.157s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[1.159s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/cmake/Diff_drive_custom_pluginConfig.cmake
+[1.160s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/cmake/Diff_drive_custom_pluginConfig-version.cmake
+[1.160s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/package.xml
+[1.166s] Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin

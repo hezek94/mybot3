@@ -3,13 +3,12 @@
     {
       "name": "linux-gcc-x64",
       "includePath": [
-        "${workspaceFolder}/**",
-        "/usr/include/gazebo-11"
+        "${workspaceFolder}/**"
       ],
       "defines": [],
       "compilerPath": "/usr/bin/gcc",
-      "cStandard": "c17",
-      "cppStandard": "gnu++17",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
       "intelliSenseMode": "linux-gcc-x64"
     }
   ],

@@ -9,9 +9,9 @@
       "stopAtEntry": false,
       "externalConsole": false,
       "cwd": "/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src",
-      "program": "/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/build/Release/outRelease",
+      "program": "/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/src/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "/usr/bin/gdb",
+      "miDebuggerPath": "gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

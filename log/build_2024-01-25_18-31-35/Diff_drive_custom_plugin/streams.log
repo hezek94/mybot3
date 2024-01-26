@@ -1,0 +1,137 @@
+[0.108s] Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+[0.156s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.375s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.426s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.430s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.440s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.591s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.593s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.789s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.035s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.249s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.308s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.364s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.366s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.373s] -- Searching for dependencies of ignition-math6
+[1.375s] -- Looking for OGRE...
+[1.384s] -- Found Ogre Ghadamon (1.9.0)
+[1.385s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.397s] -- Looking for OGRE_Paging...
+[1.398s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.398s] -- Looking for OGRE_Terrain...
+[1.398s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.398s] -- Looking for OGRE_Property...
+[1.398s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.398s] -- Looking for OGRE_RTShaderSystem...
+[1.398s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.399s] -- Looking for OGRE_Volume...
+[1.399s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.399s] -- Looking for OGRE_Overlay...
+[1.399s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.552s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.552s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.553s] -- Searching for dependencies of ignition-transport8
+[1.580s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.599s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.608s] -- Checking for module 'libzmq >= 4'
+[1.637s] --   Found libzmq , version 4.3.4
+[1.729s] -- Checking for module 'uuid'
+[1.761s] --   Found uuid, version 2.37.2
+[1.836s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.837s] -- Searching for dependencies of ignition-msgs5
+[1.869s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.877s] -- Checking for module 'tinyxml2'
+[1.906s] --   Found tinyxml2, version 9.0.0
+[1.993s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.994s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.995s] -- Searching for dependencies of ignition-common3
+[1.996s] -- Looking for dlfcn.h - found
+[1.996s] -- Looking for libdl - found
+[2.014s] -- Searching for <ignition-common3> component [graphics]
+[2.014s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.015s] -- Searching for dependencies of ignition-common3-graphics
+[2.016s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.018s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.018s] -- Searching for dependencies of ignition-fuel_tools4
+[2.090s] -- Checking for module 'jsoncpp'
+[2.117s] --   Found jsoncpp, version 1.9.5
+[2.204s] -- Checking for module 'libzip'
+[2.235s] --   Found libzip, version 1.7.3
+[2.315s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.316s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.316s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.320s] -- Gazebo version: 11.10
+[2.327s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[2.339s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.347s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.349s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.854s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.877s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.013s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.117s] WARNING: Package name "Diff_drive_custom_plugin" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[3.148s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.148s] -- Configured cppcheck include dirs: /home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/include
+[3.148s] -- Configured cppcheck exclude dirs and/or files: 
+[3.148s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.150s] -- Added test 'lint_cmake' to check CMake code style
+[3.150s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.153s] -- Added test 'uncrustify' to check C / C++ code style
+[3.154s] -- Configured uncrustify additional arguments: 
+[3.154s] -- Added test 'xmllint' to check XML markup files
+[3.156s] -- Configuring done
+[3.228s] -- Generating done
+[3.235s] -- Build files have been written to: /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin
+[3.296s] [35m[1mConsolidate compiler generated dependencies of target Diff_drive_custom_plugin[0m
+[3.357s] [100%] Built target Diff_drive_custom_plugin
+[3.380s] Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+[3.470s] Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin
+[3.482s] -- Install configuration: ""
+[3.482s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/library_path.sh
+[3.482s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/library_path.dsv
+[3.482s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel
+[3.483s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha
+[3.483s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails
+[3.483s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails/3.png
+[3.517s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails/4.png
+[3.519s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails/2.png
+[3.520s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails/1.png
+[3.521s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails/5.png
+[3.522s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/model-1_4.sdf
+[3.523s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/model-1_2.sdf
+[3.530s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/model.config
+[3.531s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/model.sdf
+[3.532s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials
+[3.533s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures
+[3.533s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/68-04552-2000-RA_Turtlebot_M-F_Standoff_color.png
+[3.543s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/plate_0_logo.png
+[3.557s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/plate_2_logo.png
+[3.560s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/create_body.png
+[3.562s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/68-02421-8000-RA_Turtlebot_F-F_Standoff_color.png
+[3.565s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/68-04552-1000-RA_Turtlebot_M-F_Standoff_color.png
+[3.575s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/plate_1_logo.png
+[3.578s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/meshes
+[3.578s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/meshes/wheel.dae
+[3.586s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/meshes/chassis.dae
+[3.602s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/model-1_3.sdf
+[3.603s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//launch
+[3.603s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//launch/robot.launch.py
+[3.612s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/lib/Diff_drive_custom_plugin/libDiff_drive_custom_plugin.so
+[3.612s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/ament_index/resource_index/package_run_dependencies/Diff_drive_custom_plugin
+[3.612s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/ament_index/resource_index/parent_prefix_path/Diff_drive_custom_plugin
+[3.612s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/ament_prefix_path.sh
+[3.612s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/ament_prefix_path.dsv
+[3.613s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/path.sh
+[3.613s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/path.dsv
+[3.613s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/local_setup.bash
+[3.613s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/local_setup.sh
+[3.613s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/local_setup.zsh
+[3.613s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/local_setup.dsv
+[3.614s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/package.dsv
+[3.614s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/ament_index/resource_index/packages/Diff_drive_custom_plugin
+[3.614s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[3.614s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/cmake/Diff_drive_custom_pluginConfig.cmake
+[3.614s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/cmake/Diff_drive_custom_pluginConfig-version.cmake
+[3.614s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/package.xml
+[3.618s] Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin

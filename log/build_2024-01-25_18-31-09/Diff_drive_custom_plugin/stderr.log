@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot find
+  "/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/gazebozModel": No such
+  file or directory.
+
+[0m

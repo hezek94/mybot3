@@ -1,0 +1,14 @@
+[0.104s] Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+[0.303s] [100%] Built target Diff_drive_custom_plugin
+[0.328s] Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+[0.425s] Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin
+[0.443s] -- Install configuration: ""
+[0.443s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/library_path.sh
+[0.444s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/library_path.dsv
+[0.444s] [31mCMake Error at cmake_install.cmake:54 (file):
+[0.444s]   file INSTALL cannot find
+[0.444s]   "/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/gazebozModel": No such
+[0.444s]   file or directory.
+[0.444s] 
+[0.444s] [0m
+[0.446s] Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin

@@ -39,11 +39,11 @@ if(ENABLE_PROFILER)
 endif()
 
 install(DIRECTORY
-  # gzmodels
+   gazeboModel
   DESTINATION share/${PROJECT_NAME}/
 )
 install(DIRECTORY
-  # launch
+  launch
   DESTINATION share/${PROJECT_NAME}/
 )
 install(TARGETS Diff_drive_custom_plugin

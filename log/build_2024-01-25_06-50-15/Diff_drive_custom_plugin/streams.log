@@ -1,0 +1,99 @@
+[0.160s] Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+[0.218s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.475s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.543s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.549s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.564s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.759s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.763s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.960s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.222s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.411s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.484s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.540s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.545s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.560s] -- Searching for dependencies of ignition-math6
+[1.564s] -- Looking for OGRE...
+[1.576s] -- Found Ogre Ghadamon (1.9.0)
+[1.577s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.589s] -- Looking for OGRE_Paging...
+[1.589s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.590s] -- Looking for OGRE_Terrain...
+[1.590s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.590s] -- Looking for OGRE_Property...
+[1.590s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.590s] -- Looking for OGRE_RTShaderSystem...
+[1.591s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.591s] -- Looking for OGRE_Volume...
+[1.591s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.591s] -- Looking for OGRE_Overlay...
+[1.591s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.731s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.733s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.733s] -- Searching for dependencies of ignition-transport8
+[1.761s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.775s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.785s] -- Checking for module 'libzmq >= 4'
+[1.817s] --   Found libzmq , version 4.3.4
+[1.910s] -- Checking for module 'uuid'
+[1.938s] --   Found uuid, version 2.37.2
+[2.024s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.024s] -- Searching for dependencies of ignition-msgs5
+[2.057s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.067s] -- Checking for module 'tinyxml2'
+[2.097s] --   Found tinyxml2, version 9.0.0
+[2.181s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.182s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.183s] -- Searching for dependencies of ignition-common3
+[2.184s] -- Looking for dlfcn.h - found
+[2.184s] -- Looking for libdl - found
+[2.207s] -- Searching for <ignition-common3> component [graphics]
+[2.209s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.210s] -- Searching for dependencies of ignition-common3-graphics
+[2.211s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.215s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.215s] -- Searching for dependencies of ignition-fuel_tools4
+[2.306s] -- Checking for module 'jsoncpp'
+[2.334s] --   Found jsoncpp, version 1.9.5
+[2.423s] -- Checking for module 'libzip'
+[2.458s] --   Found libzip, version 1.7.3
+[2.534s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.534s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.535s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.540s] -- Gazebo version: 11.10
+[2.548s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[2.567s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.580s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.583s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.127s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[3.153s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.301s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.400s] WARNING: Package name "Diff_drive_custom_plugin" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[3.454s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.455s] -- Configured cppcheck include dirs: /home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/include
+[3.455s] -- Configured cppcheck exclude dirs and/or files: 
+[3.456s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.458s] -- Added test 'lint_cmake' to check CMake code style
+[3.460s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.463s] -- Added test 'uncrustify' to check C / C++ code style
+[3.463s] -- Configured uncrustify additional arguments: 
+[3.464s] -- Added test 'xmllint' to check XML markup files
+[3.467s] -- Configuring done
+[3.550s] -- Generating done
+[3.557s] -- Build files have been written to: /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin
+[3.617s] [35m[1mConsolidate compiler generated dependencies of target Diff_drive_custom_plugin[0m
+[3.683s] [100%] Built target Diff_drive_custom_plugin
+[3.705s] Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin -- -j6 -l6
+[3.806s] Invoking command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin
+[3.821s] -- Install configuration: ""
+[3.821s] -- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/library_path.sh
+[3.821s] -- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/library_path.dsv
+[3.822s] [31mCMake Error at cmake_install.cmake:54 (file):
+[3.822s]   file INSTALL cannot find
+[3.822s]   "/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/gazebozmodel": No such
+[3.822s]   file or directory.
+[3.822s] 
+[3.823s] [0m
+[3.827s] Invoked command in '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin

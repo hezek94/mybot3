@@ -18,6 +18,7 @@ find_package(tf2_ros REQUIRED)
 find_package(pluginlib REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
+
 add_library(Diff_drive_custom_plugin SHARED
   src/Diff_drive_custom.cpp
 )
@@ -43,12 +44,14 @@ install(DIRECTORY
   DESTINATION share/${PROJECT_NAME}/
 )
 install(DIRECTORY
-  launch
+  launch urdf
   DESTINATION share/${PROJECT_NAME}/
 )
 install(TARGETS Diff_drive_custom_plugin
   DESTINATION lib/${PROJECT_NAME})
 
+  # install(DIRECTORY urdf
+  # DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

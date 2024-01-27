@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.000774] (Diff_drive_custom_plugin) JobQueued: {'identifier': 'Diff_drive_custom_plugin', 'dependencies': OrderedDict()}
+[0.001097] (Diff_drive_custom_plugin) JobStarted: {'identifier': 'Diff_drive_custom_plugin'}
+[0.089410] (-) TimerEvent: {}
+[0.193267] (-) TimerEvent: {}
+[0.295855] (-) TimerEvent: {}
+[0.372607] (Diff_drive_custom_plugin) JobProgress: {'identifier': 'Diff_drive_custom_plugin', 'progress': 'cmake'}
+[0.396074] (-) TimerEvent: {}
+[0.425330] (Diff_drive_custom_plugin) JobProgress: {'identifier': 'Diff_drive_custom_plugin', 'progress': 'build'}
+[0.425576] (Diff_drive_custom_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin', '--', '-j6', '-l6'], 'cwd': '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'femi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/femi'), ('OLDPWD', '/home/femi/Mybot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1802'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/femi/Mybot2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'femi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'femi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/femi-virtual-machine:@/tmp/.ICE-unix/1750,unix/femi-virtual-machine:/tmp/.ICE-unix/1750'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af41d660_0c42_4d88_a8ec_3c57c7ddee00'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AWKXH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/media:/usr/share/gazebo-11/models:/usr/share/gazebo-11/worlds:/usr/share/gazebo-11:/usr/share/gazebo-11/media:/usr/share/gazebo-11/models:/usr/share/gazebo-11/worlds:/usr/share/gazebo-11:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin:/opt/ros/humble')]), 'shell': False}
+[0.496493] (-) TimerEvent: {}
+[0.597006] (-) TimerEvent: {}
+[0.697640] (-) TimerEvent: {}
+[0.800194] (-) TimerEvent: {}
+[0.901066] (-) TimerEvent: {}
+[1.004244] (-) TimerEvent: {}
+[1.104975] (-) TimerEvent: {}
+[1.205586] (-) TimerEvent: {}
+[1.308158] (-) TimerEvent: {}
+[1.408989] (-) TimerEvent: {}
+[1.492643] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.509137] (-) TimerEvent: {}
+[1.611928] (-) TimerEvent: {}
+[1.712493] (-) TimerEvent: {}
+[1.816076] (-) TimerEvent: {}
+[1.916726] (-) TimerEvent: {}
+[2.019925] (-) TimerEvent: {}
+[2.120511] (-) TimerEvent: {}
+[2.221208] (-) TimerEvent: {}
+[2.323878] (-) TimerEvent: {}
+[2.424378] (-) TimerEvent: {}
+[2.525004] (-) TimerEvent: {}
+[2.625633] (-) TimerEvent: {}
+[2.727918] (-) TimerEvent: {}
+[2.732683] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.828087] (-) TimerEvent: {}
+[2.928640] (-) TimerEvent: {}
+[3.001676] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.023877] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.028807] (-) TimerEvent: {}
+[3.065672] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.128907] (-) TimerEvent: {}
+[3.152947] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.229107] (-) TimerEvent: {}
+[3.244792] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.329312] (-) TimerEvent: {}
+[3.432064] (-) TimerEvent: {}
+[3.532687] (-) TimerEvent: {}
+[3.633287] (-) TimerEvent: {}
+[3.665494] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.716475] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.733403] (-) TimerEvent: {}
+[3.836114] (-) TimerEvent: {}
+[3.936645] (-) TimerEvent: {}
+[4.037152] (-) TimerEvent: {}
+[4.137624] (-) TimerEvent: {}
+[4.240067] (-) TimerEvent: {}
+[4.340449] (-) TimerEvent: {}
+[4.440900] (-) TimerEvent: {}
+[4.509750] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.541229] (-) TimerEvent: {}
+[4.644072] (-) TimerEvent: {}
+[4.744493] (-) TimerEvent: {}
+[4.845033] (-) TimerEvent: {}
+[4.945611] (-) TimerEvent: {}
+[5.048388] (-) TimerEvent: {}
+[5.148860] (-) TimerEvent: {}
+[5.249451] (-) TimerEvent: {}
+[5.328166] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.349683] (-) TimerEvent: {}
+[5.452110] (-) TimerEvent: {}
+[5.552650] (-) TimerEvent: {}
+[5.653316] (-) TimerEvent: {}
+[5.755918] (-) TimerEvent: {}
+[5.856297] (-) TimerEvent: {}
+[5.873440] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[5.956449] (-) TimerEvent: {}
+[6.056934] (-) TimerEvent: {}
+[6.157478] (-) TimerEvent: {}
+[6.192362] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[6.257622] (-) TimerEvent: {}
+[6.359934] (-) TimerEvent: {}
+[6.460356] (-) TimerEvent: {}
+[6.560776] (-) TimerEvent: {}
+[6.632141] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[6.660890] (-) TimerEvent: {}
+[6.692121] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[6.761221] (-) TimerEvent: {}
+[6.817025] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[6.845232] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[6.861443] (-) TimerEvent: {}
+[6.913065] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[6.937118] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[6.963973] (-) TimerEvent: {}
+[6.969106] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[6.969722] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[6.969892] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[6.970036] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[6.970173] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[6.972062] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[6.972346] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[6.972562] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[6.972764] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[6.972953] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[6.973057] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[6.973147] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[7.064158] (-) TimerEvent: {}
+[7.164724] (-) TimerEvent: {}
+[7.265448] (-) TimerEvent: {}
+[7.367875] (-) TimerEvent: {}
+[7.460222] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[7.468030] (-) TimerEvent: {}
+[7.497638] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[7.500883] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[7.568282] (-) TimerEvent: {}
+[7.581094] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[7.623935] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[7.644653] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[7.668483] (-) TimerEvent: {}
+[7.768937] (-) TimerEvent: {}
+[7.837520] (Diff_drive_custom_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[7.869094] (-) TimerEvent: {}
+[7.971845] (-) TimerEvent: {}
+[8.048237] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[8.071930] (-) TimerEvent: {}
+[8.159914] (Diff_drive_custom_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[8.172061] (-) TimerEvent: {}
+[8.272599] (-) TimerEvent: {}
+[8.336954] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[8.339944] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[8.372705] (-) TimerEvent: {}
+[8.399878] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[8.420050] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[8.472800] (-) TimerEvent: {}
+[8.528106] (Diff_drive_custom_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[8.572944] (-) TimerEvent: {}
+[8.673397] (-) TimerEvent: {}
+[8.700559] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[8.707917] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[8.709070] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[8.712312] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[8.712742] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[8.773568] (-) TimerEvent: {}
+[8.788696] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[8.792617] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[8.793413] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[8.795990] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[8.804688] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[8.805518] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[8.873708] (-) TimerEvent: {}
+[8.976108] (-) TimerEvent: {}
+[8.988603] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[9.064569] (Diff_drive_custom_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[9.076338] (-) TimerEvent: {}
+[9.176962] (-) TimerEvent: {}
+[9.277513] (-) TimerEvent: {}
+[9.284734] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[9.352263] (Diff_drive_custom_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[9.379808] (-) TimerEvent: {}
+[9.480296] (-) TimerEvent: {}
+[9.511895] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[9.512458] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[9.513290] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[9.545485] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[9.580451] (-) TimerEvent: {}
+[9.597291] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[9.677103] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[9.680540] (-) TimerEvent: {}
+[9.711946] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[9.715974] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[9.780790] (-) TimerEvent: {}
+[9.881261] (-) TimerEvent: {}
+[9.981747] (-) TimerEvent: {}
+[10.083902] (-) TimerEvent: {}
+[10.184473] (-) TimerEvent: {}
+[10.285048] (-) TimerEvent: {}
+[10.385459] (-) TimerEvent: {}
+[10.489121] (-) TimerEvent: {}
+[10.591923] (-) TimerEvent: {}
+[10.692470] (-) TimerEvent: {}
+[10.792947] (-) TimerEvent: {}
+[10.893439] (-) TimerEvent: {}
+[10.993934] (-) TimerEvent: {}
+[11.096298] (-) TimerEvent: {}
+[11.196892] (-) TimerEvent: {}
+[11.297328] (-) TimerEvent: {}
+[11.380742] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[11.397516] (-) TimerEvent: {}
+[11.452755] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[11.497657] (-) TimerEvent: {}
+[11.599936] (-) TimerEvent: {}
+[11.700463] (-) TimerEvent: {}
+[11.800947] (-) TimerEvent: {}
+[11.861465] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.901106] (-) TimerEvent: {}
+[12.001470] (-) TimerEvent: {}
+[12.041554] (Diff_drive_custom_plugin) StderrLine: {'line': b'WARNING: Package name "Diff_drive_custom_plugin" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[12.103910] (-) TimerEvent: {}
+[12.204481] (-) TimerEvent: {}
+[12.268040] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.268477] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/include\n'}
+[12.268673] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.277497] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[12.281600] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.288397] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[12.300609] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.300881] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.304577] (-) TimerEvent: {}
+[12.316921] (Diff_drive_custom_plugin) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.352069] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.404791] (-) TimerEvent: {}
+[12.505261] (-) TimerEvent: {}
+[12.607886] (-) TimerEvent: {}
+[12.708388] (-) TimerEvent: {}
+[12.808827] (-) TimerEvent: {}
+[12.909358] (-) TimerEvent: {}
+[13.011880] (-) TimerEvent: {}
+[13.112258] (-) TimerEvent: {}
+[13.212843] (-) TimerEvent: {}
+[13.313495] (-) TimerEvent: {}
+[13.415911] (-) TimerEvent: {}
+[13.431916] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[13.445501] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/femi/Mybot2_ws/build/Diff_drive_custom_plugin\n'}
+[13.516019] (-) TimerEvent: {}
+[13.613382] (Diff_drive_custom_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Diff_drive_custom_plugin\x1b[0m\n'}
+[13.616250] (-) TimerEvent: {}
+[13.716752] (-) TimerEvent: {}
+[13.797632] (Diff_drive_custom_plugin) StdoutLine: {'line': b'[100%] Built target Diff_drive_custom_plugin\n'}
+[13.816889] (-) TimerEvent: {}
+[13.849561] (Diff_drive_custom_plugin) CommandEnded: {'returncode': 0}
+[13.917346] (-) TimerEvent: {}
+[14.016405] (Diff_drive_custom_plugin) JobProgress: {'identifier': 'Diff_drive_custom_plugin', 'progress': 'install'}
+[14.019896] (-) TimerEvent: {}
+[14.059908] (Diff_drive_custom_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin'], 'cwd': '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'femi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/femi'), ('OLDPWD', '/home/femi/Mybot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1802'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/femi/Mybot2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'femi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'femi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/femi-virtual-machine:@/tmp/.ICE-unix/1750,unix/femi-virtual-machine:/tmp/.ICE-unix/1750'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af41d660_0c42_4d88_a8ec_3c57c7ddee00'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AWKXH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/media:/usr/share/gazebo-11/models:/usr/share/gazebo-11/worlds:/usr/share/gazebo-11:/usr/share/gazebo-11/media:/usr/share/gazebo-11/models:/usr/share/gazebo-11/worlds:/usr/share/gazebo-11:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/femi/Mybot2_ws/build/Diff_drive_custom_plugin'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/femi/Mybot2_ws/install/Diff_drive_custom_plugin:/opt/ros/humble')]), 'shell': False}
+[14.092853] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.093366] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/library_path.sh\n'}
+[14.095865] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin/environment/library_path.dsv\n'}
+[14.096619] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel\n'}
+[14.096981] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/urdf\n'}
+[14.097384] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/urdf/mybot.xacro\n'}
+[14.097626] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/urdf/materials.xacro\n'}
+[14.097734] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/urdf/empty_world.world\n'}
+[14.097850] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/urdf/mybot.gazebo\n'}
+[14.101361] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha\n'}
+[14.104085] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails\n'}
+[14.104784] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails/3.png\n'}
+[14.105069] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails/4.png\n'}
+[14.105271] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails/2.png\n'}
+[14.105455] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails/1.png\n'}
+[14.105619] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/thumbnails/5.png\n'}
+[14.105757] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/model-1_4.sdf\n'}
+[14.107834] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/model-1_2.sdf\n'}
+[14.108122] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/model.config\n'}
+[14.108323] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/model.sdf\n'}
+[14.108595] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials\n'}
+[14.111937] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures\n'}
+[14.112917] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/68-04552-2000-RA_Turtlebot_M-F_Standoff_color.png\n'}
+[14.113799] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/plate_0_logo.png\n'}
+[14.116153] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/plate_2_logo.png\n'}
+[14.116871] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/create_body.png\n'}
+[14.119913] (-) TimerEvent: {}
+[14.120908] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/68-02421-8000-RA_Turtlebot_F-F_Standoff_color.png\n'}
+[14.125338] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/68-04552-1000-RA_Turtlebot_M-F_Standoff_color.png\n'}
+[14.125485] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/materials/textures/plate_1_logo.png\n'}
+[14.125581] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/meshes\n'}
+[14.125672] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/meshes/wheel.dae\n'}
+[14.125761] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/meshes/chassis.dae\n'}
+[14.125918] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//gazeboModel/modelByAnkitha/model-1_3.sdf\n'}
+[14.128271] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//launch\n'}
+[14.128703] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//launch/gazebo_model.launch.py\n'}
+[14.129197] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Installing: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//launch/robot.launch.py\n'}
+[14.133124] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//launch/__pycache__\n'}
+[14.133703] (Diff_drive_custom_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/femi/Mybot2_ws/install/Diff_drive_custom_plugin/share/Diff_drive_custom_plugin//launch/__pycache__/robot.launch.cpython-310.pyc\n'}
+[14.133873] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:58 (file):\n'}
+[14.134026] (Diff_drive_custom_plugin) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[14.135967] (Diff_drive_custom_plugin) StderrLine: {'line': b'  "/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/urdf": No such file or\n'}
+[14.136156] (Diff_drive_custom_plugin) StderrLine: {'line': b'  directory.\n'}
+[14.136321] (Diff_drive_custom_plugin) StderrLine: {'line': b'\n'}
+[14.136456] (Diff_drive_custom_plugin) StderrLine: {'line': b'\x1b[0m\n'}
+[14.136592] (Diff_drive_custom_plugin) CommandEnded: {'returncode': 1}
+[14.220056] (-) TimerEvent: {}
+[14.320698] (-) TimerEvent: {}
+[14.424252] (-) TimerEvent: {}
+[14.524741] (-) TimerEvent: {}
+[14.625210] (-) TimerEvent: {}
+[14.644233] (Diff_drive_custom_plugin) JobEnded: {'identifier': 'Diff_drive_custom_plugin', 'rc': 1}
+[14.657139] (-) EventReactorShutdown: {}

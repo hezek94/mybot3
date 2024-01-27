@@ -5,7 +5,7 @@ set(Diff_drive_custom_plugin_BUILD_DEPENDS "rclcpp" "std_msgs" "nav_msgs" "gazeb
 set(Diff_drive_custom_plugin_BUILDTOOL_DEPENDS "ament_cmake")
 set(Diff_drive_custom_plugin_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs" "nav_msgs" "gazebo_ros" "geometry_msgs" "tf2" "tf2_geometry_msgs" "tf2_ros" "pluginlib" "sensor_msgs")
 set(Diff_drive_custom_plugin_BUILDTOOL_EXPORT_DEPENDS )
-set(Diff_drive_custom_plugin_EXEC_DEPENDS "rclcpp" "std_msgs" "nav_msgs" "gazebo_ros" "geometry_msgs" "tf2" "tf2_geometry_msgs" "tf2_ros" "pluginlib" "sensor_msgs")
+set(Diff_drive_custom_plugin_EXEC_DEPENDS "joint_state_publisher" "robot_state_publisher" "xacro" "rclcpp" "std_msgs" "nav_msgs" "gazebo_ros" "geometry_msgs" "tf2" "tf2_geometry_msgs" "tf2_ros" "pluginlib" "sensor_msgs")
 set(Diff_drive_custom_plugin_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(Diff_drive_custom_plugin_GROUP_DEPENDS )
 set(Diff_drive_custom_plugin_MEMBER_OF_GROUPS )

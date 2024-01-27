@@ -12,7 +12,7 @@ from launch.substitutions import EnvironmentVariable
 import sys
 
 
-share_dir = get_package_share_directory('Diff_drive_custom_plugin')
+share_dir = get_package_share_directory('modelByAnkitha')
 gzenv = {'GAZEBO_MODEL_PATH': share_dir + '/gazeboModel//robots',
          'GAZEBO_MASTER_URI': "127.0.0.1:11345",
          'GAZEBO_IP': "127.0.0.1"}

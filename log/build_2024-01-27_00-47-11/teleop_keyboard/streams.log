@@ -1,0 +1,23 @@
+[1.357s] Invoking command in '/home/femi/Mybot2_ws/src/teleop_keyboard': PYTHONPATH=/home/femi/Mybot2_ws/build/teleop_keyboard/prefix_override:/home/femi/Mybot2_ws/install/teleop_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_keyboard build --build-base /home/femi/Mybot2_ws/build/teleop_keyboard/build install --record /home/femi/Mybot2_ws/build/teleop_keyboard/install.log --single-version-externally-managed
+[1.739s] running egg_info
+[1.740s] writing ../../build/teleop_keyboard/teleop_keyboard.egg-info/PKG-INFO
+[1.741s] writing dependency_links to ../../build/teleop_keyboard/teleop_keyboard.egg-info/dependency_links.txt
+[1.742s] writing entry points to ../../build/teleop_keyboard/teleop_keyboard.egg-info/entry_points.txt
+[1.742s] writing requirements to ../../build/teleop_keyboard/teleop_keyboard.egg-info/requires.txt
+[1.743s] writing top-level names to ../../build/teleop_keyboard/teleop_keyboard.egg-info/top_level.txt
+[1.748s] reading manifest file '../../build/teleop_keyboard/teleop_keyboard.egg-info/SOURCES.txt'
+[1.749s] writing manifest file '../../build/teleop_keyboard/teleop_keyboard.egg-info/SOURCES.txt'
+[1.750s] running build
+[1.750s] running build_py
+[1.751s] running install
+[1.752s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.752s]   warnings.warn(
+[1.753s] running install_lib
+[1.755s] running install_data
+[1.755s] running install_egg_info
+[1.759s] removing '/home/femi/Mybot2_ws/install/teleop_keyboard/lib/python3.10/site-packages/teleop_keyboard-0.0.0-py3.10.egg-info' (and everything under it)
+[1.760s] Copying ../../build/teleop_keyboard/teleop_keyboard.egg-info to /home/femi/Mybot2_ws/install/teleop_keyboard/lib/python3.10/site-packages/teleop_keyboard-0.0.0-py3.10.egg-info
+[1.761s] running install_scripts
+[1.792s] Installing teleopNode script to /home/femi/Mybot2_ws/install/teleop_keyboard/lib/teleop_keyboard
+[1.793s] writing list of installed files to '/home/femi/Mybot2_ws/build/teleop_keyboard/install.log'
+[1.828s] Invoked command in '/home/femi/Mybot2_ws/src/teleop_keyboard' returned '0': PYTHONPATH=/home/femi/Mybot2_ws/build/teleop_keyboard/prefix_override:/home/femi/Mybot2_ws/install/teleop_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_keyboard build --build-base /home/femi/Mybot2_ws/build/teleop_keyboard/build install --record /home/femi/Mybot2_ws/build/teleop_keyboard/install.log --single-version-externally-managed

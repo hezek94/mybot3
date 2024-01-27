@@ -55,7 +55,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Diff_drive_custom_plugin/" TYPE DIRECTORY FILES "/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Diff_drive_custom_plugin/" TYPE DIRECTORY FILES
+    "/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/launch"
+    "/home/femi/Mybot2_ws/src/Diff_drive_custom_plugin/urdf"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

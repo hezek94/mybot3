@@ -1,1 +1,1 @@
-gazebo_ros:geometry_msgs:nav_msgs:pluginlib:rclcpp:sensor_msgs:std_msgs:tf2:tf2_geometry_msgs:tf2_ros
+gazebo_ros:geometry_msgs:joint_state_publisher:nav_msgs:pluginlib:rclcpp:robot_state_publisher:sensor_msgs:std_msgs:tf2:tf2_geometry_msgs:tf2_ros:xacro
